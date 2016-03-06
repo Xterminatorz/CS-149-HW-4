@@ -32,11 +32,9 @@ public class Process {
         }
         int p = r.nextInt(10);
         if (p < 7) { // 70% chance of locality of reference
-            lastPageIndex += r.nextInt(3) - 1; // -1 0 +1 from last page
-            if (lastPageIndex < 0)
-                lastPageIndex = 0;
+            lastPageIndex = (lastPageIndex + (r.nextInt(3) - 1)) % 10; // -1 0 +1 from last page
         } else {
-            lastPageIndex = r.nextInt(7) + 2; // random page from 2 - 8
+            lastPageIndex = (lastPageIndex + (r.nextInt(7) + 2)) % 10; // delta-i from 2 - 8
         }
         return lastPageIndex;
     }
