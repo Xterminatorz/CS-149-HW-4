@@ -84,14 +84,8 @@ public class CPUSystem {
         int procsSwappedIn = 0; // Keeps track number of processes swapped in
         // Each loop represents 1 second
         while (currentTime <= SECONDS_TO_RUN) {
-            SimulatedProcess proc = processes.peek(); // Gets first process
-            if (mem.allocateMemory(proc)) { // Attemps to allocate memory
-                System.out.println("Process added: " + proc);
-                runningProcesses.add(processes.poll()); // Adds to running processes list if memory was successfully allocated
-                procsSwappedIn++;
-            }
             Iterator<SimulatedProcess> iter = runningProcesses.iterator();
-            while (iter.hasNext()) {
+            while (iter.hasNext()) { // Execute all running processes
                 SimulatedProcess p = iter.next();
                 p.executing(); // Execute Process
                 if (p.isFinished()) {
@@ -99,6 +93,13 @@ public class CPUSystem {
                     iter.remove(); // Remove from running processes list
                 }
             }
+            SimulatedProcess proc = processes.peek(); // Gets first process
+            if (mem.allocateMemory(proc)) { // Attemps to allocate memory
+                System.out.println("Process added: " + proc);
+                runningProcesses.add(processes.poll()); // Adds to running processes list if memory was successfully allocated
+                procsSwappedIn++;
+            }
+
             currentTime += 1; // Increase CPU time by 1 second
         }
         stats.add(procsSwappedIn);
@@ -109,7 +110,7 @@ public class CPUSystem {
      */
     public void printStats() {
         OptionalDouble avgSwap = stats.stream().mapToDouble(a -> a).average();
-        System.out.println("Average process amount swapped in: " + (avgSwap.isPresent() ? avgSwap.getAsDouble() : 0));
+        System.out.println("Average processes swapped in: " + (avgSwap.isPresent() ? avgSwap.getAsDouble() : 0));
     }
 
 }

@@ -1,13 +1,12 @@
 package swapping;
 
-
-import java.util.ArrayList;
-import java.util.List;
-
 /*
  * CS 149 Group 2
  * Homework 4
  */
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Johnny

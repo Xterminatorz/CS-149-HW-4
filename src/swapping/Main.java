@@ -15,8 +15,10 @@ public class Main {
      */
     public static void main(String[] args) {
         Memory[] algs = {new FirstFitMemory(), new NextFitMemory(), new BestFitMemory()};
-        for (Memory alg : algs) {
-            CPUSystem s = new CPUSystem(alg);
+        String[] algNames = {"First Fit", "Next Fit", "Best Fit"};
+        for (int algIndex = 0; algIndex < algs.length; algIndex++) {
+            System.out.println(algNames[algIndex]);
+            CPUSystem s = new CPUSystem(algs[algIndex]);
             for (int i = 0; i < 5; i++) {
                 s.generateProcesses();
                 s.start();

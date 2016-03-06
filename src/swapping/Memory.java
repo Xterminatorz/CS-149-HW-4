@@ -28,7 +28,7 @@ public abstract class Memory {
             for (int i = startIndex; i < startIndex + process.getSize(); i++) {
                 memory.set(i, process.getName());
             }
-            System.out.print("Allocated " + process.getName() + " :");
+            System.out.print("Allocated " + process.getName() + ": ");
             printMemoryMap();
             return true;
         }
@@ -41,7 +41,7 @@ public abstract class Memory {
                 memory.set(i, ".");
             }
         }
-        System.out.print("Deallocated " + process.getName() + " :");
+        System.out.print("Deallocated " + process.getName() + ": ");
         printMemoryMap();
     }
 
