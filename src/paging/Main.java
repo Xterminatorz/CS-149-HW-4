@@ -21,7 +21,7 @@ public class Main {
             Process p = new Process(algs[i]);
             System.out.println(algNames[i]);
             for (int j = 0; j < 5; j++) {
-                System.out.print("Run " + (j + 1) + " ");
+                System.out.println("\r\nRun " + (j + 1) + " ");
                 p.run();
                 p.reset();
             }

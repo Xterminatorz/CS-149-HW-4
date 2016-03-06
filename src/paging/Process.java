@@ -42,7 +42,7 @@ public class Process {
         } else {
             lastPageIndex = (lastPageIndex + (r.nextInt(7) + 2)) % 10; // delta-i from 2 - 8
         }
-        return lastPageIndex;
+        return Math.max(0, lastPageIndex);
     }
 
     /**
@@ -50,8 +50,8 @@ public class Process {
      */
     public void run() {
         while (pageRefs < 100) {
-            mem.requestPage(getPageToRequest());
             pageRefs++;
+            mem.requestPage(getPageToRequest(), pageRefs);
         }
         stats.add(mem.getPageHits());
         System.out.println("Page hit ratio: " + mem.getPageHits() / 100.0);
@@ -71,6 +71,6 @@ public class Process {
      */
     public void printAverageHitRatio() {
         OptionalDouble avgSwap = stats.stream().mapToDouble(a -> a).average();
-        System.out.println("Average hit ratio: " + (avgSwap.isPresent() ? avgSwap.getAsDouble() / 100.0 : 0));
+        System.out.println("Average hit ratio: " + (avgSwap.isPresent() ? avgSwap.getAsDouble() / 100.0 : 0) + "\r\n");
     }
 }

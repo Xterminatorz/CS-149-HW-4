@@ -31,4 +31,9 @@ public class Page {
         return page;
     }
 
+    @Override
+    public String toString() {
+        return page + " ";
+    }
+
 }
