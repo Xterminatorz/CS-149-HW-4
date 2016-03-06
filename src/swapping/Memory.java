@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public abstract class Memory {
 
     private final ArrayList<String> memory = new ArrayList<>();
-
+    
     public Memory() {
         for (int i = 0; i < 100; i++) {
             memory.add(".");
@@ -34,7 +34,7 @@ public abstract class Memory {
         }
         return false;
     }
-
+    
     public void deallocateMemory(SimulatedProcess process) {
         for (int i = 0; i < memory.size(); i++) {
             if (memory.get(i).equals(process.getName())) {
@@ -55,4 +55,5 @@ public abstract class Memory {
             memory.set(i, ".");
         }
     }
+    
 }
