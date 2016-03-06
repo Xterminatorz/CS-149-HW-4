@@ -14,6 +14,14 @@ public class NextFitMemory extends Memory {
 
     private int lastAssignedIndex;
 
+    /**
+     * Returns starting index of where to allocate memory for the specified
+     * process. Based on Next Fit Swapping algorithm.
+     *
+     * @param memory current memory
+     * @param proccess process to allocate memory for
+     * @return index of where to start allocating
+     */
     @Override
     public int getNextIndex(ArrayList<String> memory, SimulatedProcess proccess) {
         int start = -1; // Index of first free space
@@ -33,7 +41,7 @@ public class NextFitMemory extends Memory {
                 return start;
             }
             if (wrapAround && i == memory.size() - 1) {
-                i = 0; // Start from beginning
+                i = 0; // Start from beginning if reached the end
                 freeCount = 0;
                 start = -1;
                 wrapAround = false;

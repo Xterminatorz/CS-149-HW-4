@@ -12,6 +12,14 @@ import java.util.ArrayList;
  */
 public class FirstFitMemory extends Memory {
 
+    /**
+     * Returns starting index of where to allocate memory for the specified
+     * process. Based on First Fit Swapping algorithm.
+     *
+     * @param memory current memory
+     * @param proccess process to allocate memory for
+     * @return index of where to start allocating
+     */
     @Override
     public int getNextIndex(ArrayList<String> memory, SimulatedProcess proccess) {
         int start = -1; // Index of first free space

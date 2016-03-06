@@ -4,7 +4,6 @@ package swapping;
  * CS 149 Group 2
  * Homework 4
  */
-
 /**
  *
  * @author Johnny
@@ -20,6 +19,7 @@ public class SimulatedProcess {
     private static final String NAMES = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
     /**
+     * Returns a process object with the specified parameters
      *
      * @param size Size of the process
      * @param duration How long the process should run

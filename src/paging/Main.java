@@ -13,19 +13,14 @@ public class Main {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Disk disk = new Disk();
-        for (int i = 0; i < 10; i++)
-            disk.addPage(new Page(i));
         Memory[] algs = {new RandomPaging(disk), new FIFOPaging(disk)};
         String[] algNames = {"Random Paging", "FIFO Paging"};
-        for (int i = 0; i < algs.length; i++) 
-        {
+        for (int i = 0; i < algs.length; i++) {
             Process p = new Process(algs[i]);
             System.out.println(algNames[i]);
-            for (int j = 0; j < 5; j++)
-            {
+            for (int j = 0; j < 5; j++) {
                 System.out.print("Run " + (j + 1) + " ");
                 p.run();
                 p.reset();

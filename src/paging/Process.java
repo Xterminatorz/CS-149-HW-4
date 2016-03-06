@@ -10,6 +10,7 @@ import java.util.OptionalDouble;
 import java.util.Random;
 
 /**
+ * Represents a process making memory references
  *
  * @author Johnny
  */
@@ -21,11 +22,16 @@ public class Process {
     private int pageRefs;
     private final List<Integer> stats = new ArrayList<>();
 
+    /**
+     * Creates a process specifying the memory that it belongs to
+     *
+     * @param m the memory this process has access to
+     */
     public Process(Memory m) {
         mem = m;
     }
 
-    private int getPageFromMemory() {
+    private int getPageToRequest() {
         if (lastPageIndex == -1) {
             lastPageIndex = r.nextInt(mem.getPagesOnDisk());
             return lastPageIndex;
@@ -39,21 +45,30 @@ public class Process {
         return lastPageIndex;
     }
 
+    /**
+     * Runs for 100 page references
+     */
     public void run() {
         while (pageRefs < 100) {
-            mem.requestPage(getPageFromMemory());
+            mem.requestPage(getPageToRequest());
             pageRefs++;
         }
         stats.add(mem.getPageHits());
         System.out.println("Page hit ratio: " + mem.getPageHits() / 100.0);
     }
 
+    /**
+     * Resets process state
+     */
     public void reset() {
         pageRefs = 0;
         lastPageIndex = -1;
         mem.reset();
     }
 
+    /**
+     * Prints average hit ratio from all runs
+     */
     public void printAverageHitRatio() {
         OptionalDouble avgSwap = stats.stream().mapToDouble(a -> a).average();
         System.out.println("Average hit ratio: " + (avgSwap.isPresent() ? avgSwap.getAsDouble() / 100.0 : 0));
