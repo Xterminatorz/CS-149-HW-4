@@ -18,7 +18,7 @@ public class SimulatedProcess {
     private int duration;
     private boolean isFinished;
     private static final String NAMES = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-    
+
     /**
      *
      * @param size Size of the process
