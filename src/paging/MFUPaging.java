@@ -25,8 +25,8 @@ public class MFUPaging extends Memory {
     }
 
     /**
-     * Picks the most recently used page which should be at index 0. Removes
-     * from cache and sets reference count to 0.
+     * Picks the most frequently used page which should be at index 0 after
+     * sorting. Removes from cache and sets reference count to 0.
      *
      * @return page index to remove
      */

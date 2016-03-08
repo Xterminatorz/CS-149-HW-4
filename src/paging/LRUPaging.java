@@ -24,7 +24,7 @@ public class LRUPaging extends Memory {
     }
 
     /**
-     * Picks the least recently used page which should be first in the list and
+     * Picks the oldest recently used page which should be first in the list and
      * removes from cache
      *
      * @return page index to remove
