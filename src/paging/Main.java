@@ -14,9 +14,10 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+    	
         Disk disk = new Disk();
-        Memory[] algs = {new RandomPaging(disk), new FIFOPaging(disk)};
-        String[] algNames = {"Random Paging", "FIFO Paging"};
+        Memory[] algs = {new RandomPaging(disk), new FIFOPaging(disk), new LRU(disk)};
+        String[] algNames = {"Random Paging", "FIFO Paging", "LRU Paging"};
         for (int i = 0; i < algs.length; i++) {
             Process p = new Process(algs[i]);
             System.out.println(algNames[i]);
@@ -28,5 +29,6 @@ public class Main {
             p.printAverageHitRatio();
             System.out.println();
         }
-    }
+        
+    } 
 }

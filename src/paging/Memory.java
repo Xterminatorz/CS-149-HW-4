@@ -4,7 +4,7 @@ package paging;
  * CS 149 Group 2
  * Homework 4
  */
-import java.util.ArrayList;
+import java.util.ArrayList; 
 import java.util.List;
 import java.util.Optional;
 
@@ -37,11 +37,18 @@ public abstract class Memory {
      */
     public void requestPage(int page, int refsMade) {
         Optional opPage = pageFrames.stream().filter(p -> p.getPageNumber() == page).findFirst();
-        System.out.print("Ref " + refsMade + ": ");
+        System.out.print("\nRef " + refsMade + ": ");
         pageFrames.stream().forEach(System.out::print);
         System.out.println();
         if (opPage.isPresent()) {
+        	 System.out.println("Page " + page + " is hit");
             pageHits++;
+            
+            // if there's a hit, reset the counter of the page that was hit
+            for(Page pages: pageFrames){
+            	if(pages.getPageNumber() == page)
+            		pages.resetLastUsed();
+            }
         } else {
             System.out.println("Page " + page + " needs to be paged in");
             if (pageFrames.size() == maxPages) {
@@ -50,6 +57,11 @@ public abstract class Memory {
                 System.out.println("Page " + pageRemoved.getPageNumber() + " was evicted");
             }
             pageFrames.add(disk.getPage(page));
+        }
+        
+        // increment the counter of all pages in pageFrames
+        for(Page pages: pageFrames){
+        	pages.incrementLastUsed();
         }
     }
 
