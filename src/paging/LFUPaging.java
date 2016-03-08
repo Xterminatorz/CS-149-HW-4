@@ -5,15 +5,15 @@ package paging;
  * Homework 4
  */
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
- * @author John
+ * @author Johnny
  */
 public class LFUPaging extends Memory {
 
-    private final ArrayList<Page> lfuCache = new ArrayList<>();
-    
+    private final List<Page> referenceCounter = new ArrayList<>();
 
     /**
      * Assigns disk access to memory
@@ -25,20 +25,23 @@ public class LFUPaging extends Memory {
     }
 
     /**
-     * Picks the least frequently used page which should be first in the list and
-     * removes from cache
+     * Picks the least frequently used page which should be at index 0 after
+     * sorting. Removes from cache and sets reference count to 0.
      *
      * @return page index to remove
      */
     @Override
     public int getPageIndexToRemove() {
-        return getPageFrames().indexOf(lfuCache.remove(0));
+        // Sort list by least reference count first
+        referenceCounter.sort((p1, p2) -> Integer.compare(p1.getReferenceCount(), p2.getReferenceCount()));
+        Page p = referenceCounter.remove(0);
+        p.setReferenceCount(0);
+        return getPageFrames().indexOf(p);
     }
 
     /**
-     * Override default requestPage function by keeping track of what pages were
-     * referenced after calling the requestPage method in its super class. LFU
-     * Cache order is most frequently used in front to least used in back
+     * Override default requestPage function by incrementing the reference
+     * counter on the requested page
      *
      * @param page index of page to retrieve
      * @param refsMade current amount of references made
@@ -47,22 +50,22 @@ public class LFUPaging extends Memory {
     @Override
     public Page requestPage(int page, int refsMade) {
         Page p = super.requestPage(page, refsMade);
-        if (lfuCache.contains(p)) // Checks if page is already in cache
-        {
-        	int currentPlace = lfuCache.indexOf(p);
-        	lfuCache.remove(currentPlace); // remove p from current position
-        	lfuCache.add(currentPlace+1,p);
-        }
-        lfuCache.add(0, p); // Add page to beginning of LFU cache ( frequent)
+        if (!referenceCounter.contains(p))
+            referenceCounter.add(p);
+        p.setReferenceCount(p.getReferenceCount() + 1);
         return p;
     }
 
     /**
-     * Clears LFU cache
+     * Resets reference counters in cache and clear
      */
     @Override
     public void reset() {
         super.reset();
-        lfuCache.clear();
+        referenceCounter.stream().forEach((p) -> {
+            p.setReferenceCount(0);
+        });
+        referenceCounter.clear();
     }
+
 }
