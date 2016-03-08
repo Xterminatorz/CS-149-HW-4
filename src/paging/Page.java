@@ -65,6 +65,6 @@ public class Page {
     }
 
     public void incrementLastUsed() {
-        lastUsedCounter += 1;
+        lastUsedCounter++;
     }
 }
