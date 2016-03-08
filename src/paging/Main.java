@@ -15,8 +15,8 @@ public class Main {
      */
     public static void main(String[] args) {
         Disk disk = new Disk();
-        Memory[] algs = {new FIFOPaging(disk), new LRUPaging(disk), new MFUPaging(disk), new RandomPaging(disk)};
-        String[] algNames = {"FIFO Paging", "LRU Paging", "MFU Paging", "Random Paging"};
+        Memory[] algs = {new FIFOPaging(disk), new LRUPaging(disk), new LFUPaging(disk), new MFUPaging(disk), new RandomPaging(disk)};
+        String[] algNames = {"FIFO Paging", "LRU Paging", "LFU Paging", "MFU Paging", "Random Paging"};
         for (int i = 0; i < algs.length; i++) {
             Process p = new Process(algs[i]);
             System.out.println(algNames[i]);

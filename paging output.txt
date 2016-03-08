@@ -1,0 +1,6170 @@
+FIFO Paging
+
+Run 1 
+Ref 1: 
+Page 9 needs to be paged in
+Ref 2: 9 
+Page 1 needs to be paged in
+Ref 3: 9 1 
+Page 1 is hit
+Ref 4: 9 1 
+Page 4 needs to be paged in
+Ref 5: 9 1 4 
+Page 8 needs to be paged in
+Ref 6: 9 1 4 8 
+Page 7 needs to be paged in
+Page 9 was evicted
+Ref 7: 1 4 8 7 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 8: 4 8 7 9 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 9: 8 7 9 6 
+Page 7 is hit
+Ref 10: 8 7 9 6 
+Page 8 is hit
+Ref 11: 8 7 9 6 
+Page 9 is hit
+Ref 12: 8 7 9 6 
+Page 8 is hit
+Ref 13: 8 7 9 6 
+Page 4 needs to be paged in
+Page 8 was evicted
+Ref 14: 7 9 6 4 
+Page 3 needs to be paged in
+Page 7 was evicted
+Ref 15: 9 6 4 3 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 16: 6 4 3 1 
+Page 1 is hit
+Ref 17: 6 4 3 1 
+Page 2 needs to be paged in
+Page 6 was evicted
+Ref 18: 4 3 1 2 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 19: 3 1 2 6 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 20: 1 2 6 8 
+Page 8 is hit
+Ref 21: 1 2 6 8 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 22: 2 6 8 3 
+Page 8 is hit
+Ref 23: 2 6 8 3 
+Page 8 is hit
+Ref 24: 2 6 8 3 
+Page 8 is hit
+Ref 25: 2 6 8 3 
+Page 5 needs to be paged in
+Page 2 was evicted
+Ref 26: 6 8 3 5 
+Page 6 is hit
+Ref 27: 6 8 3 5 
+Page 6 is hit
+Ref 28: 6 8 3 5 
+Page 3 is hit
+Ref 29: 6 8 3 5 
+Page 2 needs to be paged in
+Page 6 was evicted
+Ref 30: 8 3 5 2 
+Page 3 is hit
+Ref 31: 8 3 5 2 
+Page 3 is hit
+Ref 32: 8 3 5 2 
+Page 4 needs to be paged in
+Page 8 was evicted
+Ref 33: 3 5 2 4 
+Page 3 is hit
+Ref 34: 3 5 2 4 
+Page 4 is hit
+Ref 35: 3 5 2 4 
+Page 3 is hit
+Ref 36: 3 5 2 4 
+Page 2 is hit
+Ref 37: 3 5 2 4 
+Page 3 is hit
+Ref 38: 3 5 2 4 
+Page 2 is hit
+Ref 39: 3 5 2 4 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 40: 5 2 4 1 
+Page 1 is hit
+Ref 41: 5 2 4 1 
+Page 1 is hit
+Ref 42: 5 2 4 1 
+Page 9 needs to be paged in
+Page 5 was evicted
+Ref 43: 2 4 1 9 
+Page 9 is hit
+Ref 44: 2 4 1 9 
+Page 8 needs to be paged in
+Page 2 was evicted
+Ref 45: 4 1 9 8 
+Page 1 is hit
+Ref 46: 4 1 9 8 
+Page 2 needs to be paged in
+Page 4 was evicted
+Ref 47: 1 9 8 2 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 48: 9 8 2 3 
+Page 2 is hit
+Ref 49: 9 8 2 3 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 50: 8 2 3 1 
+Page 2 is hit
+Ref 51: 8 2 3 1 
+Page 3 is hit
+Ref 52: 8 2 3 1 
+Page 2 is hit
+Ref 53: 8 2 3 1 
+Page 3 is hit
+Ref 54: 8 2 3 1 
+Page 1 is hit
+Ref 55: 8 2 3 1 
+Page 7 needs to be paged in
+Page 8 was evicted
+Ref 56: 2 3 1 7 
+Page 6 needs to be paged in
+Page 2 was evicted
+Ref 57: 3 1 7 6 
+Page 7 is hit
+Ref 58: 3 1 7 6 
+Page 3 is hit
+Ref 59: 3 1 7 6 
+Page 2 needs to be paged in
+Page 3 was evicted
+Ref 60: 1 7 6 2 
+Page 2 is hit
+Ref 61: 1 7 6 2 
+Page 1 is hit
+Ref 62: 1 7 6 2 
+Page 0 needs to be paged in
+Page 1 was evicted
+Ref 63: 7 6 2 0 
+Page 0 is hit
+Ref 64: 7 6 2 0 
+Page 4 needs to be paged in
+Page 7 was evicted
+Ref 65: 6 2 0 4 
+Page 3 needs to be paged in
+Page 6 was evicted
+Ref 66: 2 0 4 3 
+Page 9 needs to be paged in
+Page 2 was evicted
+Ref 67: 0 4 3 9 
+Page 0 is hit
+Ref 68: 0 4 3 9 
+Page 0 is hit
+Ref 69: 0 4 3 9 
+Page 2 needs to be paged in
+Page 0 was evicted
+Ref 70: 4 3 9 2 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 71: 3 9 2 1 
+Page 0 needs to be paged in
+Page 3 was evicted
+Ref 72: 9 2 1 0 
+Page 1 is hit
+Ref 73: 9 2 1 0 
+Page 2 is hit
+Ref 74: 9 2 1 0 
+Page 3 needs to be paged in
+Page 9 was evicted
+Ref 75: 2 1 0 3 
+Page 3 is hit
+Ref 76: 2 1 0 3 
+Page 3 is hit
+Ref 77: 2 1 0 3 
+Page 1 is hit
+Ref 78: 2 1 0 3 
+Page 2 is hit
+Ref 79: 2 1 0 3 
+Page 2 is hit
+Ref 80: 2 1 0 3 
+Page 3 is hit
+Ref 81: 2 1 0 3 
+Page 4 needs to be paged in
+Page 2 was evicted
+Ref 82: 1 0 3 4 
+Page 3 is hit
+Ref 83: 1 0 3 4 
+Page 0 is hit
+Ref 84: 1 0 3 4 
+Page 0 is hit
+Ref 85: 1 0 3 4 
+Page 6 needs to be paged in
+Page 1 was evicted
+Ref 86: 0 3 4 6 
+Page 6 is hit
+Ref 87: 0 3 4 6 
+Page 6 is hit
+Ref 88: 0 3 4 6 
+Page 3 is hit
+Ref 89: 0 3 4 6 
+Page 4 is hit
+Ref 90: 0 3 4 6 
+Page 5 needs to be paged in
+Page 0 was evicted
+Ref 91: 3 4 6 5 
+Page 4 is hit
+Ref 92: 3 4 6 5 
+Page 3 is hit
+Ref 93: 3 4 6 5 
+Page 2 needs to be paged in
+Page 3 was evicted
+Ref 94: 4 6 5 2 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 95: 6 5 2 1 
+Page 4 needs to be paged in
+Page 6 was evicted
+Ref 96: 5 2 1 4 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 97: 2 1 4 6 
+Page 3 needs to be paged in
+Page 2 was evicted
+Ref 98: 1 4 6 3 
+Page 2 needs to be paged in
+Page 1 was evicted
+Ref 99: 4 6 3 2 
+Page 3 is hit
+Ref 100: 4 6 3 2 
+Page 8 needs to be paged in
+Page 4 was evicted
+Page hit ratio: 0.56
+
+Run 2 
+Ref 1: 
+Page 3 needs to be paged in
+Ref 2: 3 
+Page 4 needs to be paged in
+Ref 3: 3 4 
+Page 3 is hit
+Ref 4: 3 4 
+Page 3 is hit
+Ref 5: 3 4 
+Page 3 is hit
+Ref 6: 3 4 
+Page 1 needs to be paged in
+Ref 7: 3 4 1 
+Page 1 is hit
+Ref 8: 3 4 1 
+Page 2 needs to be paged in
+Ref 9: 3 4 1 2 
+Page 1 is hit
+Ref 10: 3 4 1 2 
+Page 9 needs to be paged in
+Page 3 was evicted
+Ref 11: 4 1 2 9 
+Page 8 needs to be paged in
+Page 4 was evicted
+Ref 12: 1 2 9 8 
+Page 5 needs to be paged in
+Page 1 was evicted
+Ref 13: 2 9 8 5 
+Page 5 is hit
+Ref 14: 2 9 8 5 
+Page 6 needs to be paged in
+Page 2 was evicted
+Ref 15: 9 8 5 6 
+Page 6 is hit
+Ref 16: 9 8 5 6 
+Page 5 is hit
+Ref 17: 9 8 5 6 
+Page 5 is hit
+Ref 18: 9 8 5 6 
+Page 2 needs to be paged in
+Page 9 was evicted
+Ref 19: 8 5 6 2 
+Page 4 needs to be paged in
+Page 8 was evicted
+Ref 20: 5 6 2 4 
+Page 3 needs to be paged in
+Page 5 was evicted
+Ref 21: 6 2 4 3 
+Page 4 is hit
+Ref 22: 6 2 4 3 
+Page 3 is hit
+Ref 23: 6 2 4 3 
+Page 1 needs to be paged in
+Page 6 was evicted
+Ref 24: 2 4 3 1 
+Page 4 is hit
+Ref 25: 2 4 3 1 
+Page 3 is hit
+Ref 26: 2 4 3 1 
+Page 6 needs to be paged in
+Page 2 was evicted
+Ref 27: 4 3 1 6 
+Page 8 needs to be paged in
+Page 4 was evicted
+Ref 28: 3 1 6 8 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 29: 1 6 8 7 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 30: 6 8 7 3 
+Page 4 needs to be paged in
+Page 6 was evicted
+Ref 31: 8 7 3 4 
+Page 3 is hit
+Ref 32: 8 7 3 4 
+Page 3 is hit
+Ref 33: 8 7 3 4 
+Page 2 needs to be paged in
+Page 8 was evicted
+Ref 34: 7 3 4 2 
+Page 2 is hit
+Ref 35: 7 3 4 2 
+Page 3 is hit
+Ref 36: 7 3 4 2 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 37: 3 4 2 5 
+Page 4 is hit
+Ref 38: 3 4 2 5 
+Page 5 is hit
+Ref 39: 3 4 2 5 
+Page 4 is hit
+Ref 40: 3 4 2 5 
+Page 4 is hit
+Ref 41: 3 4 2 5 
+Page 5 is hit
+Ref 42: 3 4 2 5 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 43: 4 2 5 7 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 44: 2 5 7 6 
+Page 7 is hit
+Ref 45: 2 5 7 6 
+Page 7 is hit
+Ref 46: 2 5 7 6 
+Page 4 needs to be paged in
+Page 2 was evicted
+Ref 47: 5 7 6 4 
+Page 3 needs to be paged in
+Page 5 was evicted
+Ref 48: 7 6 4 3 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 49: 6 4 3 2 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 50: 4 3 2 8 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 51: 3 2 8 7 
+Page 8 is hit
+Ref 52: 3 2 8 7 
+Page 7 is hit
+Ref 53: 3 2 8 7 
+Page 8 is hit
+Ref 54: 3 2 8 7 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 55: 2 8 7 1 
+Page 4 needs to be paged in
+Page 2 was evicted
+Ref 56: 8 7 1 4 
+Page 4 is hit
+Ref 57: 8 7 1 4 
+Page 4 is hit
+Ref 58: 8 7 1 4 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 59: 7 1 4 9 
+Page 0 needs to be paged in
+Page 7 was evicted
+Ref 60: 1 4 9 0 
+Page 5 needs to be paged in
+Page 1 was evicted
+Ref 61: 4 9 0 5 
+Page 5 is hit
+Ref 62: 4 9 0 5 
+Page 5 is hit
+Ref 63: 4 9 0 5 
+Page 5 is hit
+Ref 64: 4 9 0 5 
+Page 5 is hit
+Ref 65: 4 9 0 5 
+Page 5 is hit
+Ref 66: 4 9 0 5 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 67: 9 0 5 7 
+Page 6 needs to be paged in
+Page 9 was evicted
+Ref 68: 0 5 7 6 
+Page 6 is hit
+Ref 69: 0 5 7 6 
+Page 7 is hit
+Ref 70: 0 5 7 6 
+Page 7 is hit
+Ref 71: 0 5 7 6 
+Page 7 is hit
+Ref 72: 0 5 7 6 
+Page 7 is hit
+Ref 73: 0 5 7 6 
+Page 9 needs to be paged in
+Page 0 was evicted
+Ref 74: 5 7 6 9 
+Page 7 is hit
+Ref 75: 5 7 6 9 
+Page 6 is hit
+Ref 76: 5 7 6 9 
+Page 6 is hit
+Ref 77: 5 7 6 9 
+Page 5 is hit
+Ref 78: 5 7 6 9 
+Page 0 needs to be paged in
+Page 5 was evicted
+Ref 79: 7 6 9 0 
+Page 0 is hit
+Ref 80: 7 6 9 0 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 81: 6 9 0 1 
+Page 1 is hit
+Ref 82: 6 9 0 1 
+Page 0 is hit
+Ref 83: 6 9 0 1 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 84: 9 0 1 5 
+Page 4 needs to be paged in
+Page 9 was evicted
+Ref 85: 0 1 5 4 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 86: 1 5 4 3 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 87: 5 4 3 9 
+Page 9 is hit
+Ref 88: 5 4 3 9 
+Page 0 needs to be paged in
+Page 5 was evicted
+Ref 89: 4 3 9 0 
+Page 0 is hit
+Ref 90: 4 3 9 0 
+Page 2 needs to be paged in
+Page 4 was evicted
+Ref 91: 3 9 0 2 
+Page 2 is hit
+Ref 92: 3 9 0 2 
+Page 3 is hit
+Ref 93: 3 9 0 2 
+Page 3 is hit
+Ref 94: 3 9 0 2 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 95: 9 0 2 4 
+Page 3 needs to be paged in
+Page 9 was evicted
+Ref 96: 0 2 4 3 
+Page 3 is hit
+Ref 97: 0 2 4 3 
+Page 2 is hit
+Ref 98: 0 2 4 3 
+Page 1 needs to be paged in
+Page 0 was evicted
+Ref 99: 2 4 3 1 
+Page 3 is hit
+Ref 100: 2 4 3 1 
+Page 0 needs to be paged in
+Page 2 was evicted
+Page hit ratio: 0.54
+
+Run 3 
+Ref 1: 
+Page 8 needs to be paged in
+Ref 2: 8 
+Page 9 needs to be paged in
+Ref 3: 8 9 
+Page 0 needs to be paged in
+Ref 4: 8 9 0 
+Page 2 needs to be paged in
+Ref 5: 8 9 0 2 
+Page 0 is hit
+Ref 6: 8 9 0 2 
+Page 0 is hit
+Ref 7: 8 9 0 2 
+Page 0 is hit
+Ref 8: 8 9 0 2 
+Page 1 needs to be paged in
+Page 8 was evicted
+Ref 9: 9 0 2 1 
+Page 0 is hit
+Ref 10: 9 0 2 1 
+Page 0 is hit
+Ref 11: 9 0 2 1 
+Page 2 is hit
+Ref 12: 9 0 2 1 
+Page 3 needs to be paged in
+Page 9 was evicted
+Ref 13: 0 2 1 3 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 14: 2 1 3 4 
+Page 4 is hit
+Ref 15: 2 1 3 4 
+Page 6 needs to be paged in
+Page 2 was evicted
+Ref 16: 1 3 4 6 
+Page 7 needs to be paged in
+Page 1 was evicted
+Ref 17: 3 4 6 7 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 18: 4 6 7 1 
+Page 2 needs to be paged in
+Page 4 was evicted
+Ref 19: 6 7 1 2 
+Page 7 is hit
+Ref 20: 6 7 1 2 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 21: 7 1 2 8 
+Page 7 is hit
+Ref 22: 7 1 2 8 
+Page 6 needs to be paged in
+Page 7 was evicted
+Ref 23: 1 2 8 6 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 24: 2 8 6 4 
+Page 1 needs to be paged in
+Page 2 was evicted
+Ref 25: 8 6 4 1 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 26: 6 4 1 5 
+Page 5 is hit
+Ref 27: 6 4 1 5 
+Page 5 is hit
+Ref 28: 6 4 1 5 
+Page 5 is hit
+Ref 29: 6 4 1 5 
+Page 6 is hit
+Ref 30: 6 4 1 5 
+Page 5 is hit
+Ref 31: 6 4 1 5 
+Page 9 needs to be paged in
+Page 6 was evicted
+Ref 32: 4 1 5 9 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 33: 1 5 9 0 
+Page 1 is hit
+Ref 34: 1 5 9 0 
+Page 5 is hit
+Ref 35: 1 5 9 0 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 36: 5 9 0 4 
+Page 8 needs to be paged in
+Page 5 was evicted
+Ref 37: 9 0 4 8 
+Page 9 is hit
+Ref 38: 9 0 4 8 
+Page 4 is hit
+Ref 39: 9 0 4 8 
+Page 4 is hit
+Ref 40: 9 0 4 8 
+Page 6 needs to be paged in
+Page 9 was evicted
+Ref 41: 0 4 8 6 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 42: 4 8 6 7 
+Page 8 is hit
+Ref 43: 4 8 6 7 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 44: 8 6 7 5 
+Page 4 needs to be paged in
+Page 8 was evicted
+Ref 45: 6 7 5 4 
+Page 9 needs to be paged in
+Page 6 was evicted
+Ref 46: 7 5 4 9 
+Page 9 is hit
+Ref 47: 7 5 4 9 
+Page 9 is hit
+Ref 48: 7 5 4 9 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 49: 5 4 9 8 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 50: 4 9 8 6 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 51: 9 8 6 7 
+Page 8 is hit
+Ref 52: 9 8 6 7 
+Page 6 is hit
+Ref 53: 9 8 6 7 
+Page 2 needs to be paged in
+Page 9 was evicted
+Ref 54: 8 6 7 2 
+Page 1 needs to be paged in
+Page 8 was evicted
+Ref 55: 6 7 2 1 
+Page 2 is hit
+Ref 56: 6 7 2 1 
+Page 2 is hit
+Ref 57: 6 7 2 1 
+Page 1 is hit
+Ref 58: 6 7 2 1 
+Page 1 is hit
+Ref 59: 6 7 2 1 
+Page 1 is hit
+Ref 60: 6 7 2 1 
+Page 2 is hit
+Ref 61: 6 7 2 1 
+Page 2 is hit
+Ref 62: 6 7 2 1 
+Page 2 is hit
+Ref 63: 6 7 2 1 
+Page 2 is hit
+Ref 64: 6 7 2 1 
+Page 7 is hit
+Ref 65: 6 7 2 1 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 66: 7 2 1 8 
+Page 0 needs to be paged in
+Page 7 was evicted
+Ref 67: 2 1 8 0 
+Page 0 is hit
+Ref 68: 2 1 8 0 
+Page 3 needs to be paged in
+Page 2 was evicted
+Ref 69: 1 8 0 3 
+Page 2 needs to be paged in
+Page 1 was evicted
+Ref 70: 8 0 3 2 
+Page 2 is hit
+Ref 71: 8 0 3 2 
+Page 3 is hit
+Ref 72: 8 0 3 2 
+Page 3 is hit
+Ref 73: 8 0 3 2 
+Page 1 needs to be paged in
+Page 8 was evicted
+Ref 74: 0 3 2 1 
+Page 2 is hit
+Ref 75: 0 3 2 1 
+Page 3 is hit
+Ref 76: 0 3 2 1 
+Page 2 is hit
+Ref 77: 0 3 2 1 
+Page 9 needs to be paged in
+Page 0 was evicted
+Ref 78: 3 2 1 9 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 79: 2 1 9 8 
+Page 8 is hit
+Ref 80: 2 1 9 8 
+Page 7 needs to be paged in
+Page 2 was evicted
+Ref 81: 1 9 8 7 
+Page 8 is hit
+Ref 82: 1 9 8 7 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 83: 9 8 7 3 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 84: 8 7 3 0 
+Page 0 is hit
+Ref 85: 8 7 3 0 
+Page 8 is hit
+Ref 86: 8 7 3 0 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 87: 7 3 0 9 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 88: 3 0 9 2 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 89: 0 9 2 1 
+Page 1 is hit
+Ref 90: 0 9 2 1 
+Page 2 is hit
+Ref 91: 0 9 2 1 
+Page 2 is hit
+Ref 92: 0 9 2 1 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 93: 9 2 1 3 
+Page 4 needs to be paged in
+Page 9 was evicted
+Ref 94: 2 1 3 4 
+Page 3 is hit
+Ref 95: 2 1 3 4 
+Page 4 is hit
+Ref 96: 2 1 3 4 
+Page 9 needs to be paged in
+Page 2 was evicted
+Ref 97: 1 3 4 9 
+Page 8 needs to be paged in
+Page 1 was evicted
+Ref 98: 3 4 9 8 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 99: 4 9 8 1 
+Page 2 needs to be paged in
+Page 4 was evicted
+Ref 100: 9 8 1 2 
+Page 3 needs to be paged in
+Page 9 was evicted
+Page hit ratio: 0.5
+
+Run 4 
+Ref 1: 
+Page 8 needs to be paged in
+Ref 2: 8 
+Page 1 needs to be paged in
+Ref 3: 8 1 
+Page 3 needs to be paged in
+Ref 4: 8 1 3 
+Page 6 needs to be paged in
+Ref 5: 8 1 3 6 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 6: 1 3 6 5 
+Page 5 is hit
+Ref 7: 1 3 6 5 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 8: 3 6 5 4 
+Page 2 needs to be paged in
+Page 3 was evicted
+Ref 9: 6 5 4 2 
+Page 4 is hit
+Ref 10: 6 5 4 2 
+Page 2 is hit
+Ref 11: 6 5 4 2 
+Page 2 is hit
+Ref 12: 6 5 4 2 
+Page 3 needs to be paged in
+Page 6 was evicted
+Ref 13: 5 4 2 3 
+Page 4 is hit
+Ref 14: 5 4 2 3 
+Page 5 is hit
+Ref 15: 5 4 2 3 
+Page 4 is hit
+Ref 16: 5 4 2 3 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 17: 4 2 3 6 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 18: 2 3 6 7 
+Page 7 is hit
+Ref 19: 2 3 6 7 
+Page 7 is hit
+Ref 20: 2 3 6 7 
+Page 8 needs to be paged in
+Page 2 was evicted
+Ref 21: 3 6 7 8 
+Page 2 needs to be paged in
+Page 3 was evicted
+Ref 22: 6 7 8 2 
+Page 1 needs to be paged in
+Page 6 was evicted
+Ref 23: 7 8 2 1 
+Page 0 needs to be paged in
+Page 7 was evicted
+Ref 24: 8 2 1 0 
+Page 0 is hit
+Ref 25: 8 2 1 0 
+Page 0 is hit
+Ref 26: 8 2 1 0 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 27: 2 1 0 5 
+Page 5 is hit
+Ref 28: 2 1 0 5 
+Page 6 needs to be paged in
+Page 2 was evicted
+Ref 29: 1 0 5 6 
+Page 6 is hit
+Ref 30: 1 0 5 6 
+Page 1 is hit
+Ref 31: 1 0 5 6 
+Page 2 needs to be paged in
+Page 1 was evicted
+Ref 32: 0 5 6 2 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 33: 5 6 2 7 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 34: 6 2 7 4 
+Page 3 needs to be paged in
+Page 6 was evicted
+Ref 35: 2 7 4 3 
+Page 6 needs to be paged in
+Page 2 was evicted
+Ref 36: 7 4 3 6 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 37: 4 3 6 8 
+Page 8 is hit
+Ref 38: 4 3 6 8 
+Page 4 is hit
+Ref 39: 4 3 6 8 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 40: 3 6 8 5 
+Page 6 is hit
+Ref 41: 3 6 8 5 
+Page 6 is hit
+Ref 42: 3 6 8 5 
+Page 5 is hit
+Ref 43: 3 6 8 5 
+Page 5 is hit
+Ref 44: 3 6 8 5 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 45: 6 8 5 7 
+Page 4 needs to be paged in
+Page 6 was evicted
+Ref 46: 8 5 7 4 
+Page 3 needs to be paged in
+Page 8 was evicted
+Ref 47: 5 7 4 3 
+Page 3 is hit
+Ref 48: 5 7 4 3 
+Page 7 is hit
+Ref 49: 5 7 4 3 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 50: 7 4 3 6 
+Page 7 is hit
+Ref 51: 7 4 3 6 
+Page 6 is hit
+Ref 52: 7 4 3 6 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 53: 4 3 6 1 
+Page 4 is hit
+Ref 54: 4 3 6 1 
+Page 4 is hit
+Ref 55: 4 3 6 1 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 56: 3 6 1 5 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 57: 6 1 5 4 
+Page 4 is hit
+Ref 58: 6 1 5 4 
+Page 5 is hit
+Ref 59: 6 1 5 4 
+Page 3 needs to be paged in
+Page 6 was evicted
+Ref 60: 1 5 4 3 
+Page 3 is hit
+Ref 61: 1 5 4 3 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 62: 5 4 3 9 
+Page 0 needs to be paged in
+Page 5 was evicted
+Ref 63: 4 3 9 0 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 64: 3 9 0 7 
+Page 3 is hit
+Ref 65: 3 9 0 7 
+Page 2 needs to be paged in
+Page 3 was evicted
+Ref 66: 9 0 7 2 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 67: 0 7 2 1 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 68: 7 2 1 4 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 69: 2 1 4 5 
+Page 2 is hit
+Ref 70: 2 1 4 5 
+Page 9 needs to be paged in
+Page 2 was evicted
+Ref 71: 1 4 5 9 
+Page 7 needs to be paged in
+Page 1 was evicted
+Ref 72: 4 5 9 7 
+Page 7 is hit
+Ref 73: 4 5 9 7 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 74: 5 9 7 6 
+Page 3 needs to be paged in
+Page 5 was evicted
+Ref 75: 9 7 6 3 
+Page 2 needs to be paged in
+Page 9 was evicted
+Ref 76: 7 6 3 2 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 77: 6 3 2 1 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 78: 3 2 1 0 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 79: 2 1 0 8 
+Page 7 needs to be paged in
+Page 2 was evicted
+Ref 80: 1 0 8 7 
+Page 7 is hit
+Ref 81: 1 0 8 7 
+Page 6 needs to be paged in
+Page 1 was evicted
+Ref 82: 0 8 7 6 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 83: 8 7 6 3 
+Page 3 is hit
+Ref 84: 8 7 6 3 
+Page 4 needs to be paged in
+Page 8 was evicted
+Ref 85: 7 6 3 4 
+Page 4 is hit
+Ref 86: 7 6 3 4 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 87: 6 3 4 5 
+Page 6 is hit
+Ref 88: 6 3 4 5 
+Page 9 needs to be paged in
+Page 6 was evicted
+Ref 89: 3 4 5 9 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 90: 4 5 9 8 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 91: 5 9 8 6 
+Page 6 is hit
+Ref 92: 5 9 8 6 
+Page 1 needs to be paged in
+Page 5 was evicted
+Ref 93: 9 8 6 1 
+Page 1 is hit
+Ref 94: 9 8 6 1 
+Page 1 is hit
+Ref 95: 9 8 6 1 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 96: 8 6 1 0 
+Page 7 needs to be paged in
+Page 8 was evicted
+Ref 97: 6 1 0 7 
+Page 2 needs to be paged in
+Page 6 was evicted
+Ref 98: 1 0 7 2 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 99: 0 7 2 3 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 100: 7 2 3 4 
+Page 5 needs to be paged in
+Page 7 was evicted
+Page hit ratio: 0.39
+
+Run 5 
+Ref 1: 
+Page 3 needs to be paged in
+Ref 2: 3 
+Page 4 needs to be paged in
+Ref 3: 3 4 
+Page 9 needs to be paged in
+Ref 4: 3 4 9 
+Page 0 needs to be paged in
+Ref 5: 3 4 9 0 
+Page 0 is hit
+Ref 6: 3 4 9 0 
+Page 5 needs to be paged in
+Page 3 was evicted
+Ref 7: 4 9 0 5 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 8: 9 0 5 6 
+Page 9 is hit
+Ref 9: 9 0 5 6 
+Page 8 needs to be paged in
+Page 9 was evicted
+Ref 10: 0 5 6 8 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 11: 5 6 8 4 
+Page 4 is hit
+Ref 12: 5 6 8 4 
+Page 3 needs to be paged in
+Page 5 was evicted
+Ref 13: 6 8 4 3 
+Page 2 needs to be paged in
+Page 6 was evicted
+Ref 14: 8 4 3 2 
+Page 8 is hit
+Ref 15: 8 4 3 2 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 16: 4 3 2 9 
+Page 9 is hit
+Ref 17: 4 3 2 9 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 18: 3 2 9 0 
+Page 0 is hit
+Ref 19: 3 2 9 0 
+Page 2 is hit
+Ref 20: 3 2 9 0 
+Page 6 needs to be paged in
+Page 3 was evicted
+Ref 21: 2 9 0 6 
+Page 7 needs to be paged in
+Page 2 was evicted
+Ref 22: 9 0 6 7 
+Page 8 needs to be paged in
+Page 9 was evicted
+Ref 23: 0 6 7 8 
+Page 5 needs to be paged in
+Page 0 was evicted
+Ref 24: 6 7 8 5 
+Page 6 is hit
+Ref 25: 6 7 8 5 
+Page 7 is hit
+Ref 26: 6 7 8 5 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 27: 7 8 5 0 
+Page 0 is hit
+Ref 28: 7 8 5 0 
+Page 0 is hit
+Ref 29: 7 8 5 0 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 30: 8 5 0 1 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 31: 5 0 1 9 
+Page 9 is hit
+Ref 32: 5 0 1 9 
+Page 0 is hit
+Ref 33: 5 0 1 9 
+Page 0 is hit
+Ref 34: 5 0 1 9 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 35: 0 1 9 4 
+Page 5 needs to be paged in
+Page 0 was evicted
+Ref 36: 1 9 4 5 
+Page 2 needs to be paged in
+Page 1 was evicted
+Ref 37: 9 4 5 2 
+Page 3 needs to be paged in
+Page 9 was evicted
+Ref 38: 4 5 2 3 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 39: 5 2 3 6 
+Page 6 is hit
+Ref 40: 5 2 3 6 
+Page 7 needs to be paged in
+Page 5 was evicted
+Ref 41: 2 3 6 7 
+Page 6 is hit
+Ref 42: 2 3 6 7 
+Page 2 is hit
+Ref 43: 2 3 6 7 
+Page 1 needs to be paged in
+Page 2 was evicted
+Ref 44: 3 6 7 1 
+Page 2 needs to be paged in
+Page 3 was evicted
+Ref 45: 6 7 1 2 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 46: 7 1 2 8 
+Page 0 needs to be paged in
+Page 7 was evicted
+Ref 47: 1 2 8 0 
+Page 0 is hit
+Ref 48: 1 2 8 0 
+Page 1 is hit
+Ref 49: 1 2 8 0 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 50: 2 8 0 9 
+Page 9 is hit
+Ref 51: 2 8 0 9 
+Page 9 is hit
+Ref 52: 2 8 0 9 
+Page 8 is hit
+Ref 53: 2 8 0 9 
+Page 8 is hit
+Ref 54: 2 8 0 9 
+Page 9 is hit
+Ref 55: 2 8 0 9 
+Page 9 is hit
+Ref 56: 2 8 0 9 
+Page 6 needs to be paged in
+Page 2 was evicted
+Ref 57: 8 0 9 6 
+Page 6 is hit
+Ref 58: 8 0 9 6 
+Page 6 is hit
+Ref 59: 8 0 9 6 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 60: 0 9 6 5 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 61: 9 6 5 4 
+Page 4 is hit
+Ref 62: 9 6 5 4 
+Page 9 is hit
+Ref 63: 9 6 5 4 
+Page 7 needs to be paged in
+Page 9 was evicted
+Ref 64: 6 5 4 7 
+Page 9 needs to be paged in
+Page 6 was evicted
+Ref 65: 5 4 7 9 
+Page 0 needs to be paged in
+Page 5 was evicted
+Ref 66: 4 7 9 0 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 67: 7 9 0 1 
+Page 1 is hit
+Ref 68: 7 9 0 1 
+Page 9 is hit
+Ref 69: 7 9 0 1 
+Page 9 is hit
+Ref 70: 7 9 0 1 
+Page 0 is hit
+Ref 71: 7 9 0 1 
+Page 0 is hit
+Ref 72: 7 9 0 1 
+Page 9 is hit
+Ref 73: 7 9 0 1 
+Page 7 is hit
+Ref 74: 7 9 0 1 
+Page 6 needs to be paged in
+Page 7 was evicted
+Ref 75: 9 0 1 6 
+Page 7 needs to be paged in
+Page 9 was evicted
+Ref 76: 0 1 6 7 
+Page 6 is hit
+Ref 77: 0 1 6 7 
+Page 7 is hit
+Ref 78: 0 1 6 7 
+Page 8 needs to be paged in
+Page 0 was evicted
+Ref 79: 1 6 7 8 
+Page 7 is hit
+Ref 80: 1 6 7 8 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 81: 6 7 8 3 
+Page 3 is hit
+Ref 82: 6 7 8 3 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 83: 7 8 3 0 
+Page 3 is hit
+Ref 84: 7 8 3 0 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 85: 8 3 0 2 
+Page 3 is hit
+Ref 86: 8 3 0 2 
+Page 2 is hit
+Ref 87: 8 3 0 2 
+Page 2 is hit
+Ref 88: 8 3 0 2 
+Page 3 is hit
+Ref 89: 8 3 0 2 
+Page 3 is hit
+Ref 90: 8 3 0 2 
+Page 8 is hit
+Ref 91: 8 3 0 2 
+Page 7 needs to be paged in
+Page 8 was evicted
+Ref 92: 3 0 2 7 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 93: 0 2 7 8 
+Page 8 is hit
+Ref 94: 0 2 7 8 
+Page 6 needs to be paged in
+Page 0 was evicted
+Ref 95: 2 7 8 6 
+Page 7 is hit
+Ref 96: 2 7 8 6 
+Page 2 is hit
+Ref 97: 2 7 8 6 
+Page 3 needs to be paged in
+Page 2 was evicted
+Ref 98: 7 8 6 3 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 99: 8 6 3 2 
+Page 0 needs to be paged in
+Page 8 was evicted
+Ref 100: 6 3 2 0 
+Page 0 is hit
+Page hit ratio: 0.51
+Average hit ratio: 0.5
+
+
+LRU Paging
+
+Run 1 
+Ref 1: 
+Page 0 needs to be paged in
+Ref 2: 0 
+Page 0 is hit
+Ref 3: 0 
+Page 4 needs to be paged in
+Ref 4: 0 4 
+Page 4 is hit
+Ref 5: 0 4 
+Page 4 is hit
+Ref 6: 0 4 
+Page 2 needs to be paged in
+Ref 7: 0 4 2 
+Page 6 needs to be paged in
+Ref 8: 0 4 2 6 
+Page 5 needs to be paged in
+Page 0 was evicted
+Ref 9: 4 2 6 5 
+Page 5 is hit
+Ref 10: 4 2 6 5 
+Page 6 is hit
+Ref 11: 4 2 6 5 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 12: 2 6 5 0 
+Page 0 is hit
+Ref 13: 2 6 5 0 
+Page 1 needs to be paged in
+Page 2 was evicted
+Ref 14: 6 5 0 1 
+Page 6 is hit
+Ref 15: 6 5 0 1 
+Page 5 is hit
+Ref 16: 6 5 0 1 
+Page 1 is hit
+Ref 17: 6 5 0 1 
+Page 2 needs to be paged in
+Page 0 was evicted
+Ref 18: 6 5 1 2 
+Page 1 is hit
+Ref 19: 6 5 1 2 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 20: 5 1 2 0 
+Page 0 is hit
+Ref 21: 5 1 2 0 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 22: 1 2 0 6 
+Page 7 needs to be paged in
+Page 2 was evicted
+Ref 23: 1 0 6 7 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 24: 0 6 7 9 
+Page 9 is hit
+Ref 25: 0 6 7 9 
+Page 8 needs to be paged in
+Page 0 was evicted
+Ref 26: 6 7 9 8 
+Page 8 is hit
+Ref 27: 6 7 9 8 
+Page 8 is hit
+Ref 28: 6 7 9 8 
+Page 3 needs to be paged in
+Page 6 was evicted
+Ref 29: 7 9 8 3 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 30: 9 8 3 2 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 31: 8 3 2 0 
+Page 1 needs to be paged in
+Page 8 was evicted
+Ref 32: 3 2 0 1 
+Page 0 is hit
+Ref 33: 3 2 0 1 
+Page 1 is hit
+Ref 34: 3 2 0 1 
+Page 1 is hit
+Ref 35: 3 2 0 1 
+Page 2 is hit
+Ref 36: 3 2 0 1 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 37: 2 0 1 7 
+Page 7 is hit
+Ref 38: 2 0 1 7 
+Page 6 needs to be paged in
+Page 0 was evicted
+Ref 39: 2 1 7 6 
+Page 1 is hit
+Ref 40: 2 1 7 6 
+Page 9 needs to be paged in
+Page 2 was evicted
+Ref 41: 1 7 6 9 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 42: 1 6 9 8 
+Page 1 is hit
+Ref 43: 1 6 9 8 
+Page 7 needs to be paged in
+Page 6 was evicted
+Ref 44: 1 9 8 7 
+Page 7 is hit
+Ref 45: 1 9 8 7 
+Page 8 is hit
+Ref 46: 1 9 8 7 
+Page 8 is hit
+Ref 47: 1 9 8 7 
+Page 7 is hit
+Ref 48: 1 9 8 7 
+Page 6 needs to be paged in
+Page 9 was evicted
+Ref 49: 1 8 7 6 
+Page 6 is hit
+Ref 50: 1 8 7 6 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 51: 8 7 6 3 
+Page 2 needs to be paged in
+Page 8 was evicted
+Ref 52: 7 6 3 2 
+Page 2 is hit
+Ref 53: 7 6 3 2 
+Page 2 is hit
+Ref 54: 7 6 3 2 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 55: 6 3 2 1 
+Page 1 is hit
+Ref 56: 6 3 2 1 
+Page 2 is hit
+Ref 57: 6 3 2 1 
+Page 3 is hit
+Ref 58: 6 3 2 1 
+Page 4 needs to be paged in
+Page 6 was evicted
+Ref 59: 3 2 1 4 
+Page 3 is hit
+Ref 60: 3 2 1 4 
+Page 2 is hit
+Ref 61: 3 2 1 4 
+Page 0 needs to be paged in
+Page 1 was evicted
+Ref 62: 3 2 4 0 
+Page 0 is hit
+Ref 63: 3 2 4 0 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 64: 3 2 0 5 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 65: 2 0 5 4 
+Page 6 needs to be paged in
+Page 2 was evicted
+Ref 66: 0 5 4 6 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 67: 5 4 6 7 
+Page 7 is hit
+Ref 68: 5 4 6 7 
+Page 7 is hit
+Ref 69: 5 4 6 7 
+Page 6 is hit
+Ref 70: 5 4 6 7 
+Page 5 is hit
+Ref 71: 5 4 6 7 
+Page 6 is hit
+Ref 72: 5 4 6 7 
+Page 5 is hit
+Ref 73: 5 4 6 7 
+Page 2 needs to be paged in
+Page 4 was evicted
+Ref 74: 5 6 7 2 
+Page 2 is hit
+Ref 75: 5 6 7 2 
+Page 2 is hit
+Ref 76: 5 6 7 2 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 77: 5 6 2 1 
+Page 7 needs to be paged in
+Page 6 was evicted
+Ref 78: 5 2 1 7 
+Page 7 is hit
+Ref 79: 5 2 1 7 
+Page 8 needs to be paged in
+Page 5 was evicted
+Ref 80: 2 1 7 8 
+Page 7 is hit
+Ref 81: 2 1 7 8 
+Page 7 is hit
+Ref 82: 2 1 7 8 
+Page 6 needs to be paged in
+Page 2 was evicted
+Ref 83: 1 7 8 6 
+Page 5 needs to be paged in
+Page 1 was evicted
+Ref 84: 7 8 6 5 
+Page 0 needs to be paged in
+Page 8 was evicted
+Ref 85: 7 6 5 0 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 86: 6 5 0 1 
+Page 2 needs to be paged in
+Page 6 was evicted
+Ref 87: 5 0 1 2 
+Page 2 is hit
+Ref 88: 5 0 1 2 
+Page 1 is hit
+Ref 89: 5 0 1 2 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 90: 0 1 2 4 
+Page 4 is hit
+Ref 91: 0 1 2 4 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 92: 1 2 4 3 
+Page 3 is hit
+Ref 93: 1 2 4 3 
+Page 2 is hit
+Ref 94: 1 2 4 3 
+Page 1 is hit
+Ref 95: 1 2 4 3 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 96: 1 2 3 0 
+Page 1 is hit
+Ref 97: 1 2 3 0 
+Page 2 is hit
+Ref 98: 1 2 3 0 
+Page 2 is hit
+Ref 99: 1 2 3 0 
+Page 6 needs to be paged in
+Page 3 was evicted
+Ref 100: 1 2 0 6 
+Page 7 needs to be paged in
+Page 0 was evicted
+Page hit ratio: 0.54
+
+Run 2 
+Ref 1: 
+Page 4 needs to be paged in
+Ref 2: 4 
+Page 1 needs to be paged in
+Ref 3: 4 1 
+Page 0 needs to be paged in
+Ref 4: 4 1 0 
+Page 1 is hit
+Ref 5: 4 1 0 
+Page 2 needs to be paged in
+Ref 6: 4 1 0 2 
+Page 1 is hit
+Ref 7: 4 1 0 2 
+Page 2 is hit
+Ref 8: 4 1 0 2 
+Page 2 is hit
+Ref 9: 4 1 0 2 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 10: 1 0 2 3 
+Page 2 is hit
+Ref 11: 1 0 2 3 
+Page 3 is hit
+Ref 12: 1 0 2 3 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 13: 1 2 3 4 
+Page 1 is hit
+Ref 14: 1 2 3 4 
+Page 2 is hit
+Ref 15: 1 2 3 4 
+Page 3 is hit
+Ref 16: 1 2 3 4 
+Page 3 is hit
+Ref 17: 1 2 3 4 
+Page 9 needs to be paged in
+Page 4 was evicted
+Ref 18: 1 2 3 9 
+Page 6 needs to be paged in
+Page 1 was evicted
+Ref 19: 2 3 9 6 
+Page 7 needs to be paged in
+Page 2 was evicted
+Ref 20: 3 9 6 7 
+Page 5 needs to be paged in
+Page 3 was evicted
+Ref 21: 9 6 7 5 
+Page 7 is hit
+Ref 22: 9 6 7 5 
+Page 8 needs to be paged in
+Page 9 was evicted
+Ref 23: 6 7 5 8 
+Page 7 is hit
+Ref 24: 6 7 5 8 
+Page 8 is hit
+Ref 25: 6 7 5 8 
+Page 9 needs to be paged in
+Page 6 was evicted
+Ref 26: 7 5 8 9 
+Page 8 is hit
+Ref 27: 7 5 8 9 
+Page 5 is hit
+Ref 28: 7 5 8 9 
+Page 4 needs to be paged in
+Page 7 was evicted
+Ref 29: 5 8 9 4 
+Page 3 needs to be paged in
+Page 9 was evicted
+Ref 30: 5 8 4 3 
+Page 3 is hit
+Ref 31: 5 8 4 3 
+Page 3 is hit
+Ref 32: 5 8 4 3 
+Page 3 is hit
+Ref 33: 5 8 4 3 
+Page 4 is hit
+Ref 34: 5 8 4 3 
+Page 3 is hit
+Ref 35: 5 8 4 3 
+Page 3 is hit
+Ref 36: 5 8 4 3 
+Page 0 needs to be paged in
+Page 8 was evicted
+Ref 37: 5 4 3 0 
+Page 0 is hit
+Ref 38: 5 4 3 0 
+Page 1 needs to be paged in
+Page 5 was evicted
+Ref 39: 4 3 0 1 
+Page 8 needs to be paged in
+Page 4 was evicted
+Ref 40: 3 0 1 8 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 41: 0 1 8 7 
+Page 8 is hit
+Ref 42: 0 1 8 7 
+Page 0 is hit
+Ref 43: 0 1 8 7 
+Page 5 needs to be paged in
+Page 1 was evicted
+Ref 44: 0 8 7 5 
+Page 3 needs to be paged in
+Page 7 was evicted
+Ref 45: 0 8 5 3 
+Page 3 is hit
+Ref 46: 0 8 5 3 
+Page 2 needs to be paged in
+Page 8 was evicted
+Ref 47: 0 5 3 2 
+Page 5 is hit
+Ref 48: 0 5 3 2 
+Page 5 is hit
+Ref 49: 0 5 3 2 
+Page 5 is hit
+Ref 50: 0 5 3 2 
+Page 6 needs to be paged in
+Page 0 was evicted
+Ref 51: 5 3 2 6 
+Page 5 is hit
+Ref 52: 5 3 2 6 
+Page 2 is hit
+Ref 53: 5 3 2 6 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 54: 5 2 6 1 
+Page 1 is hit
+Ref 55: 5 2 6 1 
+Page 1 is hit
+Ref 56: 5 2 6 1 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 57: 5 2 1 0 
+Page 0 is hit
+Ref 58: 5 2 1 0 
+Page 9 needs to be paged in
+Page 5 was evicted
+Ref 59: 2 1 0 9 
+Page 2 is hit
+Ref 60: 2 1 0 9 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 61: 2 0 9 3 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 62: 2 9 3 4 
+Page 3 is hit
+Ref 63: 2 9 3 4 
+Page 4 is hit
+Ref 64: 2 9 3 4 
+Page 3 is hit
+Ref 65: 2 9 3 4 
+Page 7 needs to be paged in
+Page 9 was evicted
+Ref 66: 2 3 4 7 
+Page 5 needs to be paged in
+Page 2 was evicted
+Ref 67: 3 4 7 5 
+Page 4 is hit
+Ref 68: 3 4 7 5 
+Page 3 is hit
+Ref 69: 3 4 7 5 
+Page 4 is hit
+Ref 70: 3 4 7 5 
+Page 3 is hit
+Ref 71: 3 4 7 5 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 72: 3 4 5 2 
+Page 1 needs to be paged in
+Page 5 was evicted
+Ref 73: 3 4 2 1 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 74: 3 2 1 0 
+Page 1 is hit
+Ref 75: 3 2 1 0 
+Page 3 is hit
+Ref 76: 3 2 1 0 
+Page 7 needs to be paged in
+Page 2 was evicted
+Ref 77: 3 1 0 7 
+Page 7 is hit
+Ref 78: 3 1 0 7 
+Page 2 needs to be paged in
+Page 0 was evicted
+Ref 79: 3 1 7 2 
+Page 0 needs to be paged in
+Page 1 was evicted
+Ref 80: 3 7 2 0 
+Page 6 needs to be paged in
+Page 3 was evicted
+Ref 81: 7 2 0 6 
+Page 7 is hit
+Ref 82: 7 2 0 6 
+Page 8 needs to be paged in
+Page 2 was evicted
+Ref 83: 7 0 6 8 
+Page 8 is hit
+Ref 84: 7 0 6 8 
+Page 9 needs to be paged in
+Page 0 was evicted
+Ref 85: 7 6 8 9 
+Page 7 is hit
+Ref 86: 7 6 8 9 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 87: 7 8 9 0 
+Page 2 needs to be paged in
+Page 8 was evicted
+Ref 88: 7 9 0 2 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 89: 7 0 2 1 
+Page 7 is hit
+Ref 90: 7 0 2 1 
+Page 7 is hit
+Ref 91: 7 0 2 1 
+Page 8 needs to be paged in
+Page 0 was evicted
+Ref 92: 7 2 1 8 
+Page 7 is hit
+Ref 93: 7 2 1 8 
+Page 6 needs to be paged in
+Page 2 was evicted
+Ref 94: 7 1 8 6 
+Page 5 needs to be paged in
+Page 1 was evicted
+Ref 95: 7 8 6 5 
+Page 3 needs to be paged in
+Page 8 was evicted
+Ref 96: 7 6 5 3 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 97: 6 5 3 2 
+Page 2 is hit
+Ref 98: 6 5 3 2 
+Page 1 needs to be paged in
+Page 6 was evicted
+Ref 99: 5 3 2 1 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 100: 3 2 1 6 
+Page 5 needs to be paged in
+Page 3 was evicted
+Page hit ratio: 0.51
+
+Run 3 
+Ref 1: 
+Page 5 needs to be paged in
+Ref 2: 5 
+Page 6 needs to be paged in
+Ref 3: 5 6 
+Page 6 is hit
+Ref 4: 5 6 
+Page 7 needs to be paged in
+Ref 5: 5 6 7 
+Page 7 is hit
+Ref 6: 5 6 7 
+Page 6 is hit
+Ref 7: 5 6 7 
+Page 5 is hit
+Ref 8: 5 6 7 
+Page 4 needs to be paged in
+Ref 9: 5 6 7 4 
+Page 3 needs to be paged in
+Page 7 was evicted
+Ref 10: 5 6 4 3 
+Page 4 is hit
+Ref 11: 5 6 4 3 
+Page 4 is hit
+Ref 12: 5 6 4 3 
+Page 1 needs to be paged in
+Page 6 was evicted
+Ref 13: 5 4 3 1 
+Page 2 needs to be paged in
+Page 5 was evicted
+Ref 14: 4 3 1 2 
+Page 2 is hit
+Ref 15: 4 3 1 2 
+Page 1 is hit
+Ref 16: 4 3 1 2 
+Page 1 is hit
+Ref 17: 4 3 1 2 
+Page 0 needs to be paged in
+Page 3 was evicted
+Ref 18: 4 1 2 0 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 19: 1 2 0 3 
+Page 9 needs to be paged in
+Page 2 was evicted
+Ref 20: 1 0 3 9 
+Page 5 needs to be paged in
+Page 1 was evicted
+Ref 21: 0 3 9 5 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 22: 3 9 5 4 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 23: 9 5 4 8 
+Page 9 is hit
+Ref 24: 9 5 4 8 
+Page 7 needs to be paged in
+Page 5 was evicted
+Ref 25: 9 4 8 7 
+Page 9 is hit
+Ref 26: 9 4 8 7 
+Page 8 is hit
+Ref 27: 9 4 8 7 
+Page 7 is hit
+Ref 28: 9 4 8 7 
+Page 7 is hit
+Ref 29: 9 4 8 7 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 30: 9 8 7 1 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 31: 8 7 1 0 
+Page 1 is hit
+Ref 32: 8 7 1 0 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 33: 7 1 0 5 
+Page 4 needs to be paged in
+Page 7 was evicted
+Ref 34: 1 0 5 4 
+Page 2 needs to be paged in
+Page 0 was evicted
+Ref 35: 1 5 4 2 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 36: 5 4 2 9 
+Page 0 needs to be paged in
+Page 5 was evicted
+Ref 37: 4 2 9 0 
+Page 0 is hit
+Ref 38: 4 2 9 0 
+Page 0 is hit
+Ref 39: 4 2 9 0 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 40: 2 9 0 1 
+Page 1 is hit
+Ref 41: 2 9 0 1 
+Page 1 is hit
+Ref 42: 2 9 0 1 
+Page 2 is hit
+Ref 43: 2 9 0 1 
+Page 2 is hit
+Ref 44: 2 9 0 1 
+Page 8 needs to be paged in
+Page 9 was evicted
+Ref 45: 2 0 1 8 
+Page 8 is hit
+Ref 46: 2 0 1 8 
+Page 9 needs to be paged in
+Page 0 was evicted
+Ref 47: 2 1 8 9 
+Page 9 is hit
+Ref 48: 2 1 8 9 
+Page 1 is hit
+Ref 49: 2 1 8 9 
+Page 0 needs to be paged in
+Page 2 was evicted
+Ref 50: 1 8 9 0 
+Page 1 is hit
+Ref 51: 1 8 9 0 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 52: 1 9 0 5 
+Page 4 needs to be paged in
+Page 9 was evicted
+Ref 53: 1 0 5 4 
+Page 0 is hit
+Ref 54: 1 0 5 4 
+Page 6 needs to be paged in
+Page 1 was evicted
+Ref 55: 0 5 4 6 
+Page 7 needs to be paged in
+Page 5 was evicted
+Ref 56: 0 4 6 7 
+Page 7 is hit
+Ref 57: 0 4 6 7 
+Page 6 is hit
+Ref 58: 0 4 6 7 
+Page 6 is hit
+Ref 59: 0 4 6 7 
+Page 7 is hit
+Ref 60: 0 4 6 7 
+Page 4 is hit
+Ref 61: 0 4 6 7 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 62: 4 6 7 3 
+Page 3 is hit
+Ref 63: 4 6 7 3 
+Page 3 is hit
+Ref 64: 4 6 7 3 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 65: 4 7 3 5 
+Page 6 needs to be paged in
+Page 7 was evicted
+Ref 66: 4 3 5 6 
+Page 6 is hit
+Ref 67: 4 3 5 6 
+Page 6 is hit
+Ref 68: 4 3 5 6 
+Page 6 is hit
+Ref 69: 4 3 5 6 
+Page 5 is hit
+Ref 70: 4 3 5 6 
+Page 5 is hit
+Ref 71: 4 3 5 6 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 72: 3 5 6 7 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 73: 5 6 7 8 
+Page 8 is hit
+Ref 74: 5 6 7 8 
+Page 9 needs to be paged in
+Page 6 was evicted
+Ref 75: 5 7 8 9 
+Page 7 is hit
+Ref 76: 5 7 8 9 
+Page 8 is hit
+Ref 77: 5 7 8 9 
+Page 7 is hit
+Ref 78: 5 7 8 9 
+Page 8 is hit
+Ref 79: 5 7 8 9 
+Page 5 is hit
+Ref 80: 5 7 8 9 
+Page 7 is hit
+Ref 81: 5 7 8 9 
+Page 6 needs to be paged in
+Page 9 was evicted
+Ref 82: 5 7 8 6 
+Page 3 needs to be paged in
+Page 8 was evicted
+Ref 83: 5 7 6 3 
+Page 2 needs to be paged in
+Page 5 was evicted
+Ref 84: 7 6 3 2 
+Page 2 is hit
+Ref 85: 7 6 3 2 
+Page 2 is hit
+Ref 86: 7 6 3 2 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 87: 6 3 2 1 
+Page 2 is hit
+Ref 88: 6 3 2 1 
+Page 3 is hit
+Ref 89: 6 3 2 1 
+Page 2 is hit
+Ref 90: 6 3 2 1 
+Page 2 is hit
+Ref 91: 6 3 2 1 
+Page 3 is hit
+Ref 92: 6 3 2 1 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 93: 3 2 1 8 
+Page 6 needs to be paged in
+Page 1 was evicted
+Ref 94: 3 2 8 6 
+Page 6 is hit
+Ref 95: 3 2 8 6 
+Page 5 needs to be paged in
+Page 2 was evicted
+Ref 96: 3 8 6 5 
+Page 0 needs to be paged in
+Page 3 was evicted
+Ref 97: 8 6 5 0 
+Page 0 is hit
+Ref 98: 8 6 5 0 
+Page 3 needs to be paged in
+Page 8 was evicted
+Ref 99: 6 5 0 3 
+Page 3 is hit
+Ref 100: 6 5 0 3 
+Page 8 needs to be paged in
+Page 6 was evicted
+Page hit ratio: 0.55
+
+Run 4 
+Ref 1: 
+Page 2 needs to be paged in
+Ref 2: 2 
+Page 7 needs to be paged in
+Ref 3: 2 7 
+Page 7 is hit
+Ref 4: 2 7 
+Page 6 needs to be paged in
+Ref 5: 2 7 6 
+Page 6 is hit
+Ref 6: 2 7 6 
+Page 5 needs to be paged in
+Ref 7: 2 7 6 5 
+Page 5 is hit
+Ref 8: 2 7 6 5 
+Page 1 needs to be paged in
+Page 2 was evicted
+Ref 9: 7 6 5 1 
+Page 5 is hit
+Ref 10: 7 6 5 1 
+Page 4 needs to be paged in
+Page 7 was evicted
+Ref 11: 6 5 1 4 
+Page 3 needs to be paged in
+Page 6 was evicted
+Ref 12: 5 1 4 3 
+Page 2 needs to be paged in
+Page 1 was evicted
+Ref 13: 5 4 3 2 
+Page 3 is hit
+Ref 14: 5 4 3 2 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 15: 4 3 2 6 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 16: 3 2 6 7 
+Page 0 needs to be paged in
+Page 2 was evicted
+Ref 17: 3 6 7 0 
+Page 0 is hit
+Ref 18: 3 6 7 0 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 19: 6 7 0 4 
+Page 3 needs to be paged in
+Page 6 was evicted
+Ref 20: 7 0 4 3 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 21: 0 4 3 5 
+Page 6 needs to be paged in
+Page 0 was evicted
+Ref 22: 4 3 5 6 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 23: 3 5 6 7 
+Page 7 is hit
+Ref 24: 3 5 6 7 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 25: 5 6 7 1 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 26: 6 7 1 4 
+Page 4 is hit
+Ref 27: 6 7 1 4 
+Page 4 is hit
+Ref 28: 6 7 1 4 
+Page 6 is hit
+Ref 29: 6 7 1 4 
+Page 6 is hit
+Ref 30: 6 7 1 4 
+Page 7 is hit
+Ref 31: 6 7 1 4 
+Page 6 is hit
+Ref 32: 6 7 1 4 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 33: 6 7 4 9 
+Page 4 is hit
+Ref 34: 6 7 4 9 
+Page 3 needs to be paged in
+Page 7 was evicted
+Ref 35: 6 4 9 3 
+Page 9 is hit
+Ref 36: 6 4 9 3 
+Page 9 is hit
+Ref 37: 6 4 9 3 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 38: 4 9 3 0 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 39: 9 3 0 6 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 40: 9 0 6 7 
+Page 6 is hit
+Ref 41: 9 0 6 7 
+Page 5 needs to be paged in
+Page 9 was evicted
+Ref 42: 0 6 7 5 
+Page 2 needs to be paged in
+Page 0 was evicted
+Ref 43: 6 7 5 2 
+Page 2 is hit
+Ref 44: 6 7 5 2 
+Page 0 needs to be paged in
+Page 7 was evicted
+Ref 45: 6 5 2 0 
+Page 7 needs to be paged in
+Page 6 was evicted
+Ref 46: 5 2 0 7 
+Page 7 is hit
+Ref 47: 5 2 0 7 
+Page 8 needs to be paged in
+Page 5 was evicted
+Ref 48: 2 0 7 8 
+Page 9 needs to be paged in
+Page 2 was evicted
+Ref 49: 0 7 8 9 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 50: 7 8 9 4 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 51: 8 9 4 5 
+Page 8 is hit
+Ref 52: 8 9 4 5 
+Page 5 is hit
+Ref 53: 8 9 4 5 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 54: 8 4 5 0 
+Page 0 is hit
+Ref 55: 8 4 5 0 
+Page 0 is hit
+Ref 56: 8 4 5 0 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 57: 8 5 0 1 
+Page 0 is hit
+Ref 58: 8 5 0 1 
+Page 6 needs to be paged in
+Page 8 was evicted
+Ref 59: 5 0 1 6 
+Page 6 is hit
+Ref 60: 5 0 1 6 
+Page 5 is hit
+Ref 61: 5 0 1 6 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 62: 5 0 6 4 
+Page 8 needs to be paged in
+Page 0 was evicted
+Ref 63: 5 6 4 8 
+Page 5 is hit
+Ref 64: 5 6 4 8 
+Page 4 is hit
+Ref 65: 5 6 4 8 
+Page 5 is hit
+Ref 66: 5 6 4 8 
+Page 5 is hit
+Ref 67: 5 6 4 8 
+Page 2 needs to be paged in
+Page 6 was evicted
+Ref 68: 5 4 8 2 
+Page 3 needs to be paged in
+Page 8 was evicted
+Ref 69: 5 4 2 3 
+Page 3 is hit
+Ref 70: 5 4 2 3 
+Page 2 is hit
+Ref 71: 5 4 2 3 
+Page 8 needs to be paged in
+Page 4 was evicted
+Ref 72: 5 2 3 8 
+Page 3 is hit
+Ref 73: 5 2 3 8 
+Page 3 is hit
+Ref 74: 5 2 3 8 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 75: 2 3 8 4 
+Page 3 is hit
+Ref 76: 2 3 8 4 
+Page 3 is hit
+Ref 77: 2 3 8 4 
+Page 3 is hit
+Ref 78: 2 3 8 4 
+Page 4 is hit
+Ref 79: 2 3 8 4 
+Page 4 is hit
+Ref 80: 2 3 8 4 
+Page 3 is hit
+Ref 81: 2 3 8 4 
+Page 3 is hit
+Ref 82: 2 3 8 4 
+Page 4 is hit
+Ref 83: 2 3 8 4 
+Page 3 is hit
+Ref 84: 2 3 8 4 
+Page 3 is hit
+Ref 85: 2 3 8 4 
+Page 6 needs to be paged in
+Page 2 was evicted
+Ref 86: 3 8 4 6 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 87: 3 4 6 5 
+Page 6 is hit
+Ref 88: 3 4 6 5 
+Page 2 needs to be paged in
+Page 4 was evicted
+Ref 89: 3 6 5 2 
+Page 6 is hit
+Ref 90: 3 6 5 2 
+Page 6 is hit
+Ref 91: 3 6 5 2 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 92: 6 5 2 8 
+Page 9 needs to be paged in
+Page 5 was evicted
+Ref 93: 6 2 8 9 
+Page 0 needs to be paged in
+Page 2 was evicted
+Ref 94: 6 8 9 0 
+Page 3 needs to be paged in
+Page 6 was evicted
+Ref 95: 8 9 0 3 
+Page 6 needs to be paged in
+Page 8 was evicted
+Ref 96: 9 0 3 6 
+Page 5 needs to be paged in
+Page 9 was evicted
+Ref 97: 0 3 6 5 
+Page 0 is hit
+Ref 98: 0 3 6 5 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 99: 0 6 5 1 
+Page 1 is hit
+Ref 100: 0 6 5 1 
+Page 0 is hit
+Page hit ratio: 0.5
+
+Run 5 
+Ref 1: 
+Page 4 needs to be paged in
+Ref 2: 4 
+Page 3 needs to be paged in
+Ref 3: 4 3 
+Page 3 is hit
+Ref 4: 4 3 
+Page 4 is hit
+Ref 5: 4 3 
+Page 3 is hit
+Ref 6: 4 3 
+Page 4 is hit
+Ref 7: 4 3 
+Page 1 needs to be paged in
+Ref 8: 4 3 1 
+Page 1 is hit
+Ref 9: 4 3 1 
+Page 4 is hit
+Ref 10: 4 3 1 
+Page 0 needs to be paged in
+Ref 11: 4 3 1 0 
+Page 0 is hit
+Ref 12: 4 3 1 0 
+Page 0 is hit
+Ref 13: 4 3 1 0 
+Page 0 is hit
+Ref 14: 4 3 1 0 
+Page 3 is hit
+Ref 15: 4 3 1 0 
+Page 7 needs to be paged in
+Page 1 was evicted
+Ref 16: 4 3 0 7 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 17: 3 0 7 5 
+Page 5 is hit
+Ref 18: 3 0 7 5 
+Page 3 is hit
+Ref 19: 3 0 7 5 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 20: 3 7 5 4 
+Page 4 is hit
+Ref 21: 3 7 5 4 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 22: 3 5 4 1 
+Page 2 needs to be paged in
+Page 5 was evicted
+Ref 23: 3 4 1 2 
+Page 9 needs to be paged in
+Page 3 was evicted
+Ref 24: 4 1 2 9 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 25: 1 2 9 0 
+Page 0 is hit
+Ref 26: 1 2 9 0 
+Page 0 is hit
+Ref 27: 1 2 9 0 
+Page 1 is hit
+Ref 28: 1 2 9 0 
+Page 2 is hit
+Ref 29: 1 2 9 0 
+Page 2 is hit
+Ref 30: 1 2 9 0 
+Page 3 needs to be paged in
+Page 9 was evicted
+Ref 31: 1 2 0 3 
+Page 3 is hit
+Ref 32: 1 2 0 3 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 33: 1 2 3 4 
+Page 3 is hit
+Ref 34: 1 2 3 4 
+Page 3 is hit
+Ref 35: 1 2 3 4 
+Page 8 needs to be paged in
+Page 1 was evicted
+Ref 36: 2 3 4 8 
+Page 9 needs to be paged in
+Page 2 was evicted
+Ref 37: 3 4 8 9 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 38: 3 8 9 0 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 39: 8 9 0 4 
+Page 4 is hit
+Ref 40: 8 9 0 4 
+Page 3 needs to be paged in
+Page 8 was evicted
+Ref 41: 9 0 4 3 
+Page 3 is hit
+Ref 42: 9 0 4 3 
+Page 3 is hit
+Ref 43: 9 0 4 3 
+Page 2 needs to be paged in
+Page 9 was evicted
+Ref 44: 0 4 3 2 
+Page 4 is hit
+Ref 45: 0 4 3 2 
+Page 3 is hit
+Ref 46: 0 4 3 2 
+Page 8 needs to be paged in
+Page 0 was evicted
+Ref 47: 4 3 2 8 
+Page 9 needs to be paged in
+Page 2 was evicted
+Ref 48: 4 3 8 9 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 49: 3 8 9 6 
+Page 5 needs to be paged in
+Page 3 was evicted
+Ref 50: 8 9 6 5 
+Page 1 needs to be paged in
+Page 8 was evicted
+Ref 51: 9 6 5 1 
+Page 4 needs to be paged in
+Page 9 was evicted
+Ref 52: 6 5 1 4 
+Page 5 is hit
+Ref 53: 6 5 1 4 
+Page 7 needs to be paged in
+Page 6 was evicted
+Ref 54: 5 1 4 7 
+Page 4 is hit
+Ref 55: 5 1 4 7 
+Page 6 needs to be paged in
+Page 1 was evicted
+Ref 56: 5 4 7 6 
+Page 5 is hit
+Ref 57: 5 4 7 6 
+Page 3 needs to be paged in
+Page 7 was evicted
+Ref 58: 5 4 6 3 
+Page 9 needs to be paged in
+Page 4 was evicted
+Ref 59: 5 6 3 9 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 60: 5 3 9 8 
+Page 7 needs to be paged in
+Page 5 was evicted
+Ref 61: 3 9 8 7 
+Page 9 is hit
+Ref 62: 3 9 8 7 
+Page 8 is hit
+Ref 63: 3 9 8 7 
+Page 6 needs to be paged in
+Page 3 was evicted
+Ref 64: 9 8 7 6 
+Page 9 is hit
+Ref 65: 9 8 7 6 
+Page 8 is hit
+Ref 66: 9 8 7 6 
+Page 6 is hit
+Ref 67: 9 8 7 6 
+Page 4 needs to be paged in
+Page 7 was evicted
+Ref 68: 9 8 6 4 
+Page 2 needs to be paged in
+Page 9 was evicted
+Ref 69: 8 6 4 2 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 70: 6 4 2 9 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 71: 4 2 9 8 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 72: 2 9 8 1 
+Page 0 needs to be paged in
+Page 2 was evicted
+Ref 73: 9 8 1 0 
+Page 0 is hit
+Ref 74: 9 8 1 0 
+Page 9 is hit
+Ref 75: 9 8 1 0 
+Page 8 is hit
+Ref 76: 9 8 1 0 
+Page 8 is hit
+Ref 77: 9 8 1 0 
+Page 8 is hit
+Ref 78: 9 8 1 0 
+Page 8 is hit
+Ref 79: 9 8 1 0 
+Page 5 needs to be paged in
+Page 1 was evicted
+Ref 80: 9 8 0 5 
+Page 8 is hit
+Ref 81: 9 8 0 5 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 82: 9 8 5 7 
+Page 6 needs to be paged in
+Page 9 was evicted
+Ref 83: 8 5 7 6 
+Page 5 is hit
+Ref 84: 8 5 7 6 
+Page 6 is hit
+Ref 85: 8 5 7 6 
+Page 6 is hit
+Ref 86: 8 5 7 6 
+Page 7 is hit
+Ref 87: 8 5 7 6 
+Page 5 is hit
+Ref 88: 8 5 7 6 
+Page 7 is hit
+Ref 89: 8 5 7 6 
+Page 6 is hit
+Ref 90: 8 5 7 6 
+Page 0 needs to be paged in
+Page 8 was evicted
+Ref 91: 5 7 6 0 
+Page 1 needs to be paged in
+Page 5 was evicted
+Ref 92: 7 6 0 1 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 93: 6 0 1 2 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 94: 0 1 2 5 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 95: 1 2 5 4 
+Page 8 needs to be paged in
+Page 1 was evicted
+Ref 96: 2 5 4 8 
+Page 9 needs to be paged in
+Page 2 was evicted
+Ref 97: 5 4 8 9 
+Page 4 is hit
+Ref 98: 5 4 8 9 
+Page 5 is hit
+Ref 99: 5 4 8 9 
+Page 3 needs to be paged in
+Page 8 was evicted
+Ref 100: 5 4 9 3 
+Page 2 needs to be paged in
+Page 9 was evicted
+Page hit ratio: 0.5
+Average hit ratio: 0.52
+
+
+LFU Paging
+
+Run 1 
+Ref 1: 
+Page 2 needs to be paged in
+Ref 2: 2 
+Page 1 needs to be paged in
+Ref 3: 2 1 
+Page 0 needs to be paged in
+Ref 4: 2 1 0 
+Page 3 needs to be paged in
+Ref 5: 2 1 0 3 
+Page 0 is hit
+Ref 6: 2 1 0 3 
+Page 0 is hit
+Ref 7: 2 1 0 3 
+Page 1 is hit
+Ref 8: 2 1 0 3 
+Page 2 is hit
+Ref 9: 2 1 0 3 
+Page 2 is hit
+Ref 10: 2 1 0 3 
+Page 3 is hit
+Ref 11: 2 1 0 3 
+Page 0 is hit
+Ref 12: 2 1 0 3 
+Page 0 is hit
+Ref 13: 2 1 0 3 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 14: 2 0 3 9 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 15: 2 0 3 1 
+Page 0 is hit
+Ref 16: 2 0 3 1 
+Page 1 is hit
+Ref 17: 2 0 3 1 
+Page 5 needs to be paged in
+Page 3 was evicted
+Ref 18: 2 0 1 5 
+Page 2 is hit
+Ref 19: 2 0 1 5 
+Page 3 needs to be paged in
+Page 5 was evicted
+Ref 20: 2 0 1 3 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 21: 2 0 1 8 
+Page 8 is hit
+Ref 22: 2 0 1 8 
+Page 6 needs to be paged in
+Page 1 was evicted
+Ref 23: 2 0 8 6 
+Page 2 is hit
+Ref 24: 2 0 8 6 
+Page 2 is hit
+Ref 25: 2 0 8 6 
+Page 2 is hit
+Ref 26: 2 0 8 6 
+Page 0 is hit
+Ref 27: 2 0 8 6 
+Page 1 needs to be paged in
+Page 6 was evicted
+Ref 28: 2 0 8 1 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 29: 2 0 8 4 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 30: 2 0 8 5 
+Page 5 is hit
+Ref 31: 2 0 8 5 
+Page 6 needs to be paged in
+Page 8 was evicted
+Ref 32: 2 0 5 6 
+Page 5 is hit
+Ref 33: 2 0 5 6 
+Page 6 is hit
+Ref 34: 2 0 5 6 
+Page 6 is hit
+Ref 35: 2 0 5 6 
+Page 7 needs to be paged in
+Page 5 was evicted
+Ref 36: 2 0 6 7 
+Page 6 is hit
+Ref 37: 2 0 6 7 
+Page 7 is hit
+Ref 38: 2 0 6 7 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 39: 2 0 6 8 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 40: 2 0 6 5 
+Page 6 is hit
+Ref 41: 2 0 6 5 
+Page 6 is hit
+Ref 42: 2 0 6 5 
+Page 1 needs to be paged in
+Page 5 was evicted
+Ref 43: 2 0 6 1 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 44: 2 0 6 9 
+Page 2 is hit
+Ref 45: 2 0 6 9 
+Page 2 is hit
+Ref 46: 2 0 6 9 
+Page 2 is hit
+Ref 47: 2 0 6 9 
+Page 3 needs to be paged in
+Page 9 was evicted
+Ref 48: 2 0 6 3 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 49: 2 0 6 1 
+Page 8 needs to be paged in
+Page 1 was evicted
+Ref 50: 2 0 6 8 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 51: 2 0 6 9 
+Page 9 is hit
+Ref 52: 2 0 6 9 
+Page 8 needs to be paged in
+Page 9 was evicted
+Ref 53: 2 0 6 8 
+Page 6 is hit
+Ref 54: 2 0 6 8 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 55: 2 0 6 5 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 56: 2 0 6 4 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 57: 2 0 6 1 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 58: 2 0 6 4 
+Page 9 needs to be paged in
+Page 4 was evicted
+Ref 59: 2 0 6 9 
+Page 8 needs to be paged in
+Page 9 was evicted
+Ref 60: 2 0 6 8 
+Page 8 is hit
+Ref 61: 2 0 6 8 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 62: 2 0 6 9 
+Page 2 is hit
+Ref 63: 2 0 6 9 
+Page 7 needs to be paged in
+Page 9 was evicted
+Ref 64: 2 0 6 7 
+Page 7 is hit
+Ref 65: 2 0 6 7 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 66: 2 0 6 5 
+Page 0 is hit
+Ref 67: 2 0 6 5 
+Page 2 is hit
+Ref 68: 2 0 6 5 
+Page 2 is hit
+Ref 69: 2 0 6 5 
+Page 1 needs to be paged in
+Page 5 was evicted
+Ref 70: 2 0 6 1 
+Page 0 is hit
+Ref 71: 2 0 6 1 
+Page 0 is hit
+Ref 72: 2 0 6 1 
+Page 0 is hit
+Ref 73: 2 0 6 1 
+Page 1 is hit
+Ref 74: 2 0 6 1 
+Page 7 needs to be paged in
+Page 1 was evicted
+Ref 75: 2 0 6 7 
+Page 4 needs to be paged in
+Page 7 was evicted
+Ref 76: 2 0 6 4 
+Page 9 needs to be paged in
+Page 4 was evicted
+Ref 77: 2 0 6 9 
+Page 6 is hit
+Ref 78: 2 0 6 9 
+Page 6 is hit
+Ref 79: 2 0 6 9 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 80: 2 0 6 1 
+Page 1 is hit
+Ref 81: 2 0 6 1 
+Page 2 is hit
+Ref 82: 2 0 6 1 
+Page 1 is hit
+Ref 83: 2 0 6 1 
+Page 1 is hit
+Ref 84: 2 0 6 1 
+Page 1 is hit
+Ref 85: 2 0 6 1 
+Page 2 is hit
+Ref 86: 2 0 6 1 
+Page 1 is hit
+Ref 87: 2 0 6 1 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 88: 2 0 6 9 
+Page 9 is hit
+Ref 89: 2 0 6 9 
+Page 5 needs to be paged in
+Page 9 was evicted
+Ref 90: 2 0 6 5 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 91: 2 0 6 4 
+Page 4 is hit
+Ref 92: 2 0 6 4 
+Page 4 is hit
+Ref 93: 2 0 6 4 
+Page 8 needs to be paged in
+Page 4 was evicted
+Ref 94: 2 0 6 8 
+Page 7 needs to be paged in
+Page 8 was evicted
+Ref 95: 2 0 6 7 
+Page 6 is hit
+Ref 96: 2 0 6 7 
+Page 6 is hit
+Ref 97: 2 0 6 7 
+Page 7 is hit
+Ref 98: 2 0 6 7 
+Page 0 is hit
+Ref 99: 2 0 6 7 
+Page 2 is hit
+Ref 100: 2 0 6 7 
+Page 9 needs to be paged in
+Page 7 was evicted
+Page hit ratio: 0.56
+
+Run 2 
+Ref 1: 
+Page 9 needs to be paged in
+Ref 2: 9 
+Page 0 needs to be paged in
+Ref 3: 9 0 
+Page 0 is hit
+Ref 4: 9 0 
+Page 3 needs to be paged in
+Ref 5: 9 0 3 
+Page 1 needs to be paged in
+Ref 6: 9 0 3 1 
+Page 9 is hit
+Ref 7: 9 0 3 1 
+Page 9 is hit
+Ref 8: 9 0 3 1 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 9: 9 0 1 8 
+Page 9 is hit
+Ref 10: 9 0 1 8 
+Page 6 needs to be paged in
+Page 1 was evicted
+Ref 11: 9 0 8 6 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 12: 9 0 6 5 
+Page 5 is hit
+Ref 13: 9 0 6 5 
+Page 5 is hit
+Ref 14: 9 0 6 5 
+Page 5 is hit
+Ref 15: 9 0 6 5 
+Page 5 is hit
+Ref 16: 9 0 6 5 
+Page 6 is hit
+Ref 17: 9 0 6 5 
+Page 6 is hit
+Ref 18: 9 0 6 5 
+Page 5 is hit
+Ref 19: 9 0 6 5 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 20: 9 6 5 4 
+Page 4 is hit
+Ref 21: 9 6 5 4 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 22: 9 6 5 1 
+Page 1 is hit
+Ref 23: 9 6 5 1 
+Page 1 is hit
+Ref 24: 9 6 5 1 
+Page 2 needs to be paged in
+Page 6 was evicted
+Ref 25: 9 5 1 2 
+Page 1 is hit
+Ref 26: 9 5 1 2 
+Page 2 is hit
+Ref 27: 9 5 1 2 
+Page 2 is hit
+Ref 28: 9 5 1 2 
+Page 3 needs to be paged in
+Page 2 was evicted
+Ref 29: 9 5 1 3 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 30: 9 5 1 4 
+Page 4 is hit
+Ref 31: 9 5 1 4 
+Page 1 is hit
+Ref 32: 9 5 1 4 
+Page 1 is hit
+Ref 33: 9 5 1 4 
+Page 1 is hit
+Ref 34: 9 5 1 4 
+Page 1 is hit
+Ref 35: 9 5 1 4 
+Page 4 is hit
+Ref 36: 9 5 1 4 
+Page 1 is hit
+Ref 37: 9 5 1 4 
+Page 5 is hit
+Ref 38: 9 5 1 4 
+Page 5 is hit
+Ref 39: 9 5 1 4 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 40: 9 5 1 6 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 41: 9 5 1 0 
+Page 0 is hit
+Ref 42: 9 5 1 0 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 43: 9 5 1 4 
+Page 5 is hit
+Ref 44: 9 5 1 4 
+Page 2 needs to be paged in
+Page 4 was evicted
+Ref 45: 9 5 1 2 
+Page 3 needs to be paged in
+Page 2 was evicted
+Ref 46: 9 5 1 3 
+Page 5 is hit
+Ref 47: 9 5 1 3 
+Page 3 is hit
+Ref 48: 9 5 1 3 
+Page 3 is hit
+Ref 49: 9 5 1 3 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 50: 9 5 1 4 
+Page 5 is hit
+Ref 51: 9 5 1 4 
+Page 5 is hit
+Ref 52: 9 5 1 4 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 53: 9 5 1 6 
+Page 6 is hit
+Ref 54: 9 5 1 6 
+Page 5 is hit
+Ref 55: 9 5 1 6 
+Page 7 needs to be paged in
+Page 6 was evicted
+Ref 56: 9 5 1 7 
+Page 1 is hit
+Ref 57: 9 5 1 7 
+Page 7 is hit
+Ref 58: 9 5 1 7 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 59: 9 5 1 2 
+Page 2 is hit
+Ref 60: 9 5 1 2 
+Page 1 is hit
+Ref 61: 9 5 1 2 
+Page 1 is hit
+Ref 62: 9 5 1 2 
+Page 2 is hit
+Ref 63: 9 5 1 2 
+Page 2 is hit
+Ref 64: 9 5 1 2 
+Page 2 is hit
+Ref 65: 9 5 1 2 
+Page 7 needs to be paged in
+Page 9 was evicted
+Ref 66: 5 1 2 7 
+Page 7 is hit
+Ref 67: 5 1 2 7 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 68: 5 1 2 8 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 69: 5 1 2 9 
+Page 1 is hit
+Ref 70: 5 1 2 9 
+Page 8 needs to be paged in
+Page 9 was evicted
+Ref 71: 5 1 2 8 
+Page 7 needs to be paged in
+Page 8 was evicted
+Ref 72: 5 1 2 7 
+Page 7 is hit
+Ref 73: 5 1 2 7 
+Page 6 needs to be paged in
+Page 7 was evicted
+Ref 74: 5 1 2 6 
+Page 7 needs to be paged in
+Page 6 was evicted
+Ref 75: 5 1 2 7 
+Page 6 needs to be paged in
+Page 7 was evicted
+Ref 76: 5 1 2 6 
+Page 5 is hit
+Ref 77: 5 1 2 6 
+Page 4 needs to be paged in
+Page 6 was evicted
+Ref 78: 5 1 2 4 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 79: 5 1 2 0 
+Page 0 is hit
+Ref 80: 5 1 2 0 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 81: 5 1 2 4 
+Page 9 needs to be paged in
+Page 4 was evicted
+Ref 82: 5 1 2 9 
+Page 8 needs to be paged in
+Page 9 was evicted
+Ref 83: 5 1 2 8 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 84: 5 1 2 9 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 85: 5 1 2 0 
+Page 0 is hit
+Ref 86: 5 1 2 0 
+Page 1 is hit
+Ref 87: 5 1 2 0 
+Page 2 is hit
+Ref 88: 5 1 2 0 
+Page 2 is hit
+Ref 89: 5 1 2 0 
+Page 1 is hit
+Ref 90: 5 1 2 0 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 91: 5 1 2 4 
+Page 4 is hit
+Ref 92: 5 1 2 4 
+Page 5 is hit
+Ref 93: 5 1 2 4 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 94: 5 1 2 0 
+Page 0 is hit
+Ref 95: 5 1 2 0 
+Page 1 is hit
+Ref 96: 5 1 2 0 
+Page 0 is hit
+Ref 97: 5 1 2 0 
+Page 0 is hit
+Ref 98: 5 1 2 0 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 99: 5 1 2 7 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 100: 5 1 2 8 
+Page 2 is hit
+Page hit ratio: 0.6
+
+Run 3 
+Ref 1: 
+Page 3 needs to be paged in
+Ref 2: 3 
+Page 8 needs to be paged in
+Ref 3: 3 8 
+Page 7 needs to be paged in
+Ref 4: 3 8 7 
+Page 7 is hit
+Ref 5: 3 8 7 
+Page 6 needs to be paged in
+Ref 6: 3 8 7 6 
+Page 2 needs to be paged in
+Page 3 was evicted
+Ref 7: 8 7 6 2 
+Page 2 is hit
+Ref 8: 8 7 6 2 
+Page 2 is hit
+Ref 9: 8 7 6 2 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 10: 7 6 2 9 
+Page 2 is hit
+Ref 11: 7 6 2 9 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 12: 7 2 9 0 
+Page 0 is hit
+Ref 13: 7 2 9 0 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 14: 7 2 0 1 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 15: 7 2 0 9 
+Page 0 is hit
+Ref 16: 7 2 0 9 
+Page 6 needs to be paged in
+Page 9 was evicted
+Ref 17: 7 2 0 6 
+Page 7 is hit
+Ref 18: 7 2 0 6 
+Page 7 is hit
+Ref 19: 7 2 0 6 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 20: 7 2 0 5 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 21: 7 2 0 6 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 22: 7 2 0 5 
+Page 0 is hit
+Ref 23: 7 2 0 5 
+Page 0 is hit
+Ref 24: 7 2 0 5 
+Page 0 is hit
+Ref 25: 7 2 0 5 
+Page 7 is hit
+Ref 26: 7 2 0 5 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 27: 7 2 0 6 
+Page 0 is hit
+Ref 28: 7 2 0 6 
+Page 1 needs to be paged in
+Page 6 was evicted
+Ref 29: 7 2 0 1 
+Page 2 is hit
+Ref 30: 7 2 0 1 
+Page 1 is hit
+Ref 31: 7 2 0 1 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 32: 7 2 0 4 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 33: 7 2 0 3 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 34: 7 2 0 4 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 35: 7 2 0 3 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 36: 7 2 0 4 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 37: 7 2 0 3 
+Page 3 is hit
+Ref 38: 7 2 0 3 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 39: 7 2 0 4 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 40: 7 2 0 5 
+Page 0 is hit
+Ref 41: 7 2 0 5 
+Page 0 is hit
+Ref 42: 7 2 0 5 
+Page 8 needs to be paged in
+Page 5 was evicted
+Ref 43: 7 2 0 8 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 44: 7 2 0 9 
+Page 0 is hit
+Ref 45: 7 2 0 9 
+Page 0 is hit
+Ref 46: 7 2 0 9 
+Page 9 is hit
+Ref 47: 7 2 0 9 
+Page 8 needs to be paged in
+Page 9 was evicted
+Ref 48: 7 2 0 8 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 49: 7 2 0 5 
+Page 9 needs to be paged in
+Page 5 was evicted
+Ref 50: 7 2 0 9 
+Page 8 needs to be paged in
+Page 9 was evicted
+Ref 51: 7 2 0 8 
+Page 7 is hit
+Ref 52: 7 2 0 8 
+Page 8 is hit
+Ref 53: 7 2 0 8 
+Page 7 is hit
+Ref 54: 7 2 0 8 
+Page 6 needs to be paged in
+Page 8 was evicted
+Ref 55: 7 2 0 6 
+Page 7 is hit
+Ref 56: 7 2 0 6 
+Page 1 needs to be paged in
+Page 6 was evicted
+Ref 57: 7 2 0 1 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 58: 7 2 0 4 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 59: 7 2 0 6 
+Page 7 is hit
+Ref 60: 7 2 0 6 
+Page 6 is hit
+Ref 61: 7 2 0 6 
+Page 4 needs to be paged in
+Page 6 was evicted
+Ref 62: 7 2 0 4 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 63: 7 2 0 5 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 64: 7 2 0 6 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 65: 7 2 0 5 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 66: 7 2 0 6 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 67: 7 2 0 5 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 68: 7 2 0 4 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 69: 7 2 0 3 
+Page 2 is hit
+Ref 70: 7 2 0 3 
+Page 3 is hit
+Ref 71: 7 2 0 3 
+Page 3 is hit
+Ref 72: 7 2 0 3 
+Page 3 is hit
+Ref 73: 7 2 0 3 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 74: 7 2 0 4 
+Page 8 needs to be paged in
+Page 4 was evicted
+Ref 75: 7 2 0 8 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 76: 7 2 0 9 
+Page 6 needs to be paged in
+Page 9 was evicted
+Ref 77: 7 2 0 6 
+Page 7 is hit
+Ref 78: 7 2 0 6 
+Page 7 is hit
+Ref 79: 7 2 0 6 
+Page 7 is hit
+Ref 80: 7 2 0 6 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 81: 7 2 0 5 
+Page 5 is hit
+Ref 82: 7 2 0 5 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 83: 7 2 0 6 
+Page 7 is hit
+Ref 84: 7 2 0 6 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 85: 7 2 0 8 
+Page 8 is hit
+Ref 86: 7 2 0 8 
+Page 8 is hit
+Ref 87: 7 2 0 8 
+Page 4 needs to be paged in
+Page 8 was evicted
+Ref 88: 7 2 0 4 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 89: 7 2 0 5 
+Page 7 is hit
+Ref 90: 7 2 0 5 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 91: 7 2 0 4 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 92: 7 2 0 6 
+Page 9 needs to be paged in
+Page 6 was evicted
+Ref 93: 7 2 0 9 
+Page 3 needs to be paged in
+Page 9 was evicted
+Ref 94: 7 2 0 3 
+Page 2 is hit
+Ref 95: 7 2 0 3 
+Page 2 is hit
+Ref 96: 7 2 0 3 
+Page 0 is hit
+Ref 97: 7 2 0 3 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 98: 7 2 0 1 
+Page 2 is hit
+Ref 99: 7 2 0 1 
+Page 7 is hit
+Ref 100: 7 2 0 1 
+Page 6 needs to be paged in
+Page 1 was evicted
+Page hit ratio: 0.44
+
+Run 4 
+Ref 1: 
+Page 5 needs to be paged in
+Ref 2: 5 
+Page 6 needs to be paged in
+Ref 3: 5 6 
+Page 7 needs to be paged in
+Ref 4: 5 6 7 
+Page 6 is hit
+Ref 5: 5 6 7 
+Page 2 needs to be paged in
+Ref 6: 5 6 7 2 
+Page 3 needs to be paged in
+Page 5 was evicted
+Ref 7: 6 7 2 3 
+Page 3 is hit
+Ref 8: 6 7 2 3 
+Page 2 is hit
+Ref 9: 6 7 2 3 
+Page 6 is hit
+Ref 10: 6 7 2 3 
+Page 6 is hit
+Ref 11: 6 7 2 3 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 12: 6 2 3 5 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 13: 6 2 3 4 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 14: 6 2 3 5 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 15: 6 2 3 4 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 16: 6 2 3 5 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 17: 6 2 3 4 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 18: 6 2 3 5 
+Page 5 is hit
+Ref 19: 6 2 3 5 
+Page 6 is hit
+Ref 20: 6 2 3 5 
+Page 7 needs to be paged in
+Page 2 was evicted
+Ref 21: 6 3 5 7 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 22: 6 3 5 8 
+Page 3 is hit
+Ref 23: 6 3 5 8 
+Page 7 needs to be paged in
+Page 8 was evicted
+Ref 24: 6 3 5 7 
+Page 6 is hit
+Ref 25: 6 3 5 7 
+Page 5 is hit
+Ref 26: 6 3 5 7 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 27: 6 3 5 2 
+Page 3 is hit
+Ref 28: 6 3 5 2 
+Page 8 needs to be paged in
+Page 2 was evicted
+Ref 29: 6 3 5 8 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 30: 6 3 5 9 
+Page 8 needs to be paged in
+Page 9 was evicted
+Ref 31: 6 3 5 8 
+Page 6 is hit
+Ref 32: 6 3 5 8 
+Page 8 is hit
+Ref 33: 6 3 5 8 
+Page 5 is hit
+Ref 34: 6 3 5 8 
+Page 4 needs to be paged in
+Page 8 was evicted
+Ref 35: 6 3 5 4 
+Page 3 is hit
+Ref 36: 6 3 5 4 
+Page 4 is hit
+Ref 37: 6 3 5 4 
+Page 5 is hit
+Ref 38: 6 3 5 4 
+Page 9 needs to be paged in
+Page 4 was evicted
+Ref 39: 6 3 5 9 
+Page 8 needs to be paged in
+Page 9 was evicted
+Ref 40: 6 3 5 8 
+Page 3 is hit
+Ref 41: 6 3 5 8 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 42: 6 3 5 9 
+Page 9 is hit
+Ref 43: 6 3 5 9 
+Page 7 needs to be paged in
+Page 9 was evicted
+Ref 44: 6 3 5 7 
+Page 6 is hit
+Ref 45: 6 3 5 7 
+Page 4 needs to be paged in
+Page 7 was evicted
+Ref 46: 6 3 5 4 
+Page 3 is hit
+Ref 47: 6 3 5 4 
+Page 9 needs to be paged in
+Page 4 was evicted
+Ref 48: 6 3 5 9 
+Page 7 needs to be paged in
+Page 9 was evicted
+Ref 49: 6 3 5 7 
+Page 6 is hit
+Ref 50: 6 3 5 7 
+Page 6 is hit
+Ref 51: 6 3 5 7 
+Page 6 is hit
+Ref 52: 6 3 5 7 
+Page 0 needs to be paged in
+Page 7 was evicted
+Ref 53: 6 3 5 0 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 54: 6 3 5 7 
+Page 7 is hit
+Ref 55: 6 3 5 7 
+Page 7 is hit
+Ref 56: 6 3 5 7 
+Page 5 is hit
+Ref 57: 6 3 5 7 
+Page 6 is hit
+Ref 58: 6 3 5 7 
+Page 5 is hit
+Ref 59: 6 3 5 7 
+Page 6 is hit
+Ref 60: 6 3 5 7 
+Page 6 is hit
+Ref 61: 6 3 5 7 
+Page 6 is hit
+Ref 62: 6 3 5 7 
+Page 5 is hit
+Ref 63: 6 3 5 7 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 64: 6 3 5 1 
+Page 2 needs to be paged in
+Page 1 was evicted
+Ref 65: 6 3 5 2 
+Page 1 needs to be paged in
+Page 2 was evicted
+Ref 66: 6 3 5 1 
+Page 1 is hit
+Ref 67: 6 3 5 1 
+Page 2 needs to be paged in
+Page 1 was evicted
+Ref 68: 6 3 5 2 
+Page 2 is hit
+Ref 69: 6 3 5 2 
+Page 2 is hit
+Ref 70: 6 3 5 2 
+Page 1 needs to be paged in
+Page 2 was evicted
+Ref 71: 6 3 5 1 
+Page 1 is hit
+Ref 72: 6 3 5 1 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 73: 6 3 5 4 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 74: 6 3 5 0 
+Page 0 is hit
+Ref 75: 6 3 5 0 
+Page 1 needs to be paged in
+Page 0 was evicted
+Ref 76: 6 3 5 1 
+Page 6 is hit
+Ref 77: 6 3 5 1 
+Page 5 is hit
+Ref 78: 6 3 5 1 
+Page 6 is hit
+Ref 79: 6 3 5 1 
+Page 6 is hit
+Ref 80: 6 3 5 1 
+Page 8 needs to be paged in
+Page 1 was evicted
+Ref 81: 6 3 5 8 
+Page 7 needs to be paged in
+Page 8 was evicted
+Ref 82: 6 3 5 7 
+Page 7 is hit
+Ref 83: 6 3 5 7 
+Page 7 is hit
+Ref 84: 6 3 5 7 
+Page 7 is hit
+Ref 85: 6 3 5 7 
+Page 6 is hit
+Ref 86: 6 3 5 7 
+Page 5 is hit
+Ref 87: 6 3 5 7 
+Page 6 is hit
+Ref 88: 6 3 5 7 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 89: 6 3 5 2 
+Page 1 needs to be paged in
+Page 2 was evicted
+Ref 90: 6 3 5 1 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 91: 6 3 5 4 
+Page 4 is hit
+Ref 92: 6 3 5 4 
+Page 5 is hit
+Ref 93: 6 3 5 4 
+Page 5 is hit
+Ref 94: 6 3 5 4 
+Page 4 is hit
+Ref 95: 6 3 5 4 
+Page 5 is hit
+Ref 96: 6 3 5 4 
+Page 4 is hit
+Ref 97: 6 3 5 4 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 98: 6 3 5 7 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 99: 6 3 5 8 
+Page 8 is hit
+Ref 100: 6 3 5 8 
+Page 8 is hit
+Page hit ratio: 0.56
+
+Run 5 
+Ref 1: 
+Page 2 needs to be paged in
+Ref 2: 2 
+Page 7 needs to be paged in
+Ref 3: 2 7 
+Page 1 needs to be paged in
+Ref 4: 2 7 1 
+Page 2 is hit
+Ref 5: 2 7 1 
+Page 7 is hit
+Ref 6: 2 7 1 
+Page 7 is hit
+Ref 7: 2 7 1 
+Page 9 needs to be paged in
+Ref 8: 2 7 1 9 
+Page 8 needs to be paged in
+Page 1 was evicted
+Ref 9: 2 7 9 8 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 10: 2 7 8 0 
+Page 0 is hit
+Ref 11: 2 7 8 0 
+Page 1 needs to be paged in
+Page 8 was evicted
+Ref 12: 2 7 0 1 
+Page 0 is hit
+Ref 13: 2 7 0 1 
+Page 0 is hit
+Ref 14: 2 7 0 1 
+Page 6 needs to be paged in
+Page 1 was evicted
+Ref 15: 2 7 0 6 
+Page 6 is hit
+Ref 16: 2 7 0 6 
+Page 8 needs to be paged in
+Page 2 was evicted
+Ref 17: 7 0 6 8 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 18: 7 0 6 5 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 19: 7 0 6 4 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 20: 7 0 6 5 
+Page 6 is hit
+Ref 21: 7 0 6 5 
+Page 6 is hit
+Ref 22: 7 0 6 5 
+Page 6 is hit
+Ref 23: 7 0 6 5 
+Page 7 is hit
+Ref 24: 7 0 6 5 
+Page 7 is hit
+Ref 25: 7 0 6 5 
+Page 8 needs to be paged in
+Page 5 was evicted
+Ref 26: 7 0 6 8 
+Page 6 is hit
+Ref 27: 7 0 6 8 
+Page 6 is hit
+Ref 28: 7 0 6 8 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 29: 7 0 6 5 
+Page 2 needs to be paged in
+Page 5 was evicted
+Ref 30: 7 0 6 2 
+Page 6 is hit
+Ref 31: 7 0 6 2 
+Page 1 needs to be paged in
+Page 2 was evicted
+Ref 32: 7 0 6 1 
+Page 0 is hit
+Ref 33: 7 0 6 1 
+Page 0 is hit
+Ref 34: 7 0 6 1 
+Page 8 needs to be paged in
+Page 1 was evicted
+Ref 35: 7 0 6 8 
+Page 7 is hit
+Ref 36: 7 0 6 8 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 37: 7 0 6 9 
+Page 9 is hit
+Ref 38: 7 0 6 9 
+Page 4 needs to be paged in
+Page 9 was evicted
+Ref 39: 7 0 6 4 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 40: 7 0 6 1 
+Page 7 is hit
+Ref 41: 7 0 6 1 
+Page 7 is hit
+Ref 42: 7 0 6 1 
+Page 7 is hit
+Ref 43: 7 0 6 1 
+Page 6 is hit
+Ref 44: 7 0 6 1 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 45: 7 0 6 3 
+Page 9 needs to be paged in
+Page 3 was evicted
+Ref 46: 7 0 6 9 
+Page 9 is hit
+Ref 47: 7 0 6 9 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 48: 7 0 6 1 
+Page 0 is hit
+Ref 49: 7 0 6 1 
+Page 0 is hit
+Ref 50: 7 0 6 1 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 51: 7 0 6 3 
+Page 3 is hit
+Ref 52: 7 0 6 3 
+Page 2 needs to be paged in
+Page 3 was evicted
+Ref 53: 7 0 6 2 
+Page 9 needs to be paged in
+Page 2 was evicted
+Ref 54: 7 0 6 9 
+Page 9 is hit
+Ref 55: 7 0 6 9 
+Page 6 is hit
+Ref 56: 7 0 6 9 
+Page 4 needs to be paged in
+Page 9 was evicted
+Ref 57: 7 0 6 4 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 58: 7 0 6 3 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 59: 7 0 6 4 
+Page 8 needs to be paged in
+Page 4 was evicted
+Ref 60: 7 0 6 8 
+Page 3 needs to be paged in
+Page 8 was evicted
+Ref 61: 7 0 6 3 
+Page 0 is hit
+Ref 62: 7 0 6 3 
+Page 0 is hit
+Ref 63: 7 0 6 3 
+Page 0 is hit
+Ref 64: 7 0 6 3 
+Page 0 is hit
+Ref 65: 7 0 6 3 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 66: 7 0 6 1 
+Page 2 needs to be paged in
+Page 1 was evicted
+Ref 67: 7 0 6 2 
+Page 8 needs to be paged in
+Page 2 was evicted
+Ref 68: 7 0 6 8 
+Page 8 is hit
+Ref 69: 7 0 6 8 
+Page 8 is hit
+Ref 70: 7 0 6 8 
+Page 8 is hit
+Ref 71: 7 0 6 8 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 72: 7 0 6 5 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 73: 7 0 6 4 
+Page 6 is hit
+Ref 74: 7 0 6 4 
+Page 6 is hit
+Ref 75: 7 0 6 4 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 76: 7 0 6 5 
+Page 6 is hit
+Ref 77: 7 0 6 5 
+Page 6 is hit
+Ref 78: 7 0 6 5 
+Page 9 needs to be paged in
+Page 5 was evicted
+Ref 79: 7 0 6 9 
+Page 0 is hit
+Ref 80: 7 0 6 9 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 81: 7 0 6 1 
+Page 1 is hit
+Ref 82: 7 0 6 1 
+Page 1 is hit
+Ref 83: 7 0 6 1 
+Page 2 needs to be paged in
+Page 1 was evicted
+Ref 84: 7 0 6 2 
+Page 2 is hit
+Ref 85: 7 0 6 2 
+Page 2 is hit
+Ref 86: 7 0 6 2 
+Page 3 needs to be paged in
+Page 2 was evicted
+Ref 87: 7 0 6 3 
+Page 0 is hit
+Ref 88: 7 0 6 3 
+Page 0 is hit
+Ref 89: 7 0 6 3 
+Page 0 is hit
+Ref 90: 7 0 6 3 
+Page 0 is hit
+Ref 91: 7 0 6 3 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 92: 7 0 6 1 
+Page 2 needs to be paged in
+Page 1 was evicted
+Ref 93: 7 0 6 2 
+Page 4 needs to be paged in
+Page 2 was evicted
+Ref 94: 7 0 6 4 
+Page 4 is hit
+Ref 95: 7 0 6 4 
+Page 4 is hit
+Ref 96: 7 0 6 4 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 97: 7 0 6 5 
+Page 6 is hit
+Ref 98: 7 0 6 5 
+Page 7 is hit
+Ref 99: 7 0 6 5 
+Page 7 is hit
+Ref 100: 7 0 6 5 
+Page 8 needs to be paged in
+Page 5 was evicted
+Page hit ratio: 0.54
+Average hit ratio: 0.54
+
+
+MFU Paging
+
+Run 1 
+Ref 1: 
+Page 5 needs to be paged in
+Ref 2: 5 
+Page 1 needs to be paged in
+Ref 3: 5 1 
+Page 0 needs to be paged in
+Ref 4: 5 1 0 
+Page 7 needs to be paged in
+Ref 5: 5 1 0 7 
+Page 8 needs to be paged in
+Page 5 was evicted
+Ref 6: 1 0 7 8 
+Page 8 is hit
+Ref 7: 1 0 7 8 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 8: 1 0 7 9 
+Page 8 needs to be paged in
+Page 1 was evicted
+Ref 9: 0 7 9 8 
+Page 8 is hit
+Ref 10: 0 7 9 8 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 11: 0 7 9 5 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 12: 7 9 5 3 
+Page 0 needs to be paged in
+Page 7 was evicted
+Ref 13: 9 5 3 0 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 14: 5 3 0 1 
+Page 9 needs to be paged in
+Page 5 was evicted
+Ref 15: 3 0 1 9 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 16: 0 1 9 8 
+Page 9 is hit
+Ref 17: 0 1 9 8 
+Page 8 is hit
+Ref 18: 0 1 9 8 
+Page 1 is hit
+Ref 19: 0 1 9 8 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 20: 0 9 8 3 
+Page 3 is hit
+Ref 21: 0 9 8 3 
+Page 4 needs to be paged in
+Page 9 was evicted
+Ref 22: 0 8 3 4 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 23: 0 3 4 5 
+Page 6 needs to be paged in
+Page 3 was evicted
+Ref 24: 0 4 5 6 
+Page 9 needs to be paged in
+Page 0 was evicted
+Ref 25: 4 5 6 9 
+Page 9 is hit
+Ref 26: 4 5 6 9 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 27: 4 5 6 1 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 28: 5 6 1 0 
+Page 7 needs to be paged in
+Page 5 was evicted
+Ref 29: 6 1 0 7 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 30: 1 0 7 8 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 31: 0 7 8 9 
+Page 8 is hit
+Ref 32: 0 7 8 9 
+Page 4 needs to be paged in
+Page 8 was evicted
+Ref 33: 0 7 9 4 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 34: 7 9 4 3 
+Page 4 is hit
+Ref 35: 7 9 4 3 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 36: 7 9 3 0 
+Page 0 is hit
+Ref 37: 7 9 3 0 
+Page 0 is hit
+Ref 38: 7 9 3 0 
+Page 5 needs to be paged in
+Page 0 was evicted
+Ref 39: 7 9 3 5 
+Page 9 is hit
+Ref 40: 7 9 3 5 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 41: 7 3 5 0 
+Page 7 is hit
+Ref 42: 7 3 5 0 
+Page 7 is hit
+Ref 43: 7 3 5 0 
+Page 6 needs to be paged in
+Page 7 was evicted
+Ref 44: 3 5 0 6 
+Page 5 is hit
+Ref 45: 3 5 0 6 
+Page 5 is hit
+Ref 46: 3 5 0 6 
+Page 0 is hit
+Ref 47: 3 5 0 6 
+Page 2 needs to be paged in
+Page 5 was evicted
+Ref 48: 3 0 6 2 
+Page 2 is hit
+Ref 49: 3 0 6 2 
+Page 8 needs to be paged in
+Page 0 was evicted
+Ref 50: 3 6 2 8 
+Page 7 needs to be paged in
+Page 2 was evicted
+Ref 51: 3 6 8 7 
+Page 6 is hit
+Ref 52: 3 6 8 7 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 53: 3 8 7 5 
+Page 6 needs to be paged in
+Page 3 was evicted
+Ref 54: 8 7 5 6 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 55: 7 5 6 9 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 56: 5 6 9 8 
+Page 2 needs to be paged in
+Page 5 was evicted
+Ref 57: 6 9 8 2 
+Page 4 needs to be paged in
+Page 6 was evicted
+Ref 58: 9 8 2 4 
+Page 9 is hit
+Ref 59: 9 8 2 4 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 60: 8 2 4 0 
+Page 1 needs to be paged in
+Page 8 was evicted
+Ref 61: 2 4 0 1 
+Page 0 is hit
+Ref 62: 2 4 0 1 
+Page 1 is hit
+Ref 63: 2 4 0 1 
+Page 0 is hit
+Ref 64: 2 4 0 1 
+Page 5 needs to be paged in
+Page 0 was evicted
+Ref 65: 2 4 1 5 
+Page 5 is hit
+Ref 66: 2 4 1 5 
+Page 5 is hit
+Ref 67: 2 4 1 5 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 68: 2 4 1 6 
+Page 5 needs to be paged in
+Page 1 was evicted
+Ref 69: 2 4 6 5 
+Page 5 is hit
+Ref 70: 2 4 6 5 
+Page 4 is hit
+Ref 71: 2 4 6 5 
+Page 5 is hit
+Ref 72: 2 4 6 5 
+Page 7 needs to be paged in
+Page 5 was evicted
+Ref 73: 2 4 6 7 
+Page 7 is hit
+Ref 74: 2 4 6 7 
+Page 7 is hit
+Ref 75: 2 4 6 7 
+Page 6 is hit
+Ref 76: 2 4 6 7 
+Page 4 is hit
+Ref 77: 2 4 6 7 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 78: 2 6 7 5 
+Page 5 is hit
+Ref 79: 2 6 7 5 
+Page 6 is hit
+Ref 80: 2 6 7 5 
+Page 5 is hit
+Ref 81: 2 6 7 5 
+Page 5 is hit
+Ref 82: 2 6 7 5 
+Page 5 is hit
+Ref 83: 2 6 7 5 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 84: 2 6 7 4 
+Page 3 needs to be paged in
+Page 7 was evicted
+Ref 85: 2 6 4 3 
+Page 4 is hit
+Ref 86: 2 6 4 3 
+Page 2 is hit
+Ref 87: 2 6 4 3 
+Page 3 is hit
+Ref 88: 2 6 4 3 
+Page 7 needs to be paged in
+Page 6 was evicted
+Ref 89: 2 4 3 7 
+Page 4 is hit
+Ref 90: 2 4 3 7 
+Page 3 is hit
+Ref 91: 2 4 3 7 
+Page 9 needs to be paged in
+Page 4 was evicted
+Ref 92: 2 3 7 9 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 93: 2 7 9 8 
+Page 2 is hit
+Ref 94: 2 7 9 8 
+Page 3 needs to be paged in
+Page 2 was evicted
+Ref 95: 7 9 8 3 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 96: 9 8 3 1 
+Page 4 needs to be paged in
+Page 9 was evicted
+Ref 97: 8 3 1 4 
+Page 1 is hit
+Ref 98: 8 3 1 4 
+Page 1 is hit
+Ref 99: 8 3 1 4 
+Page 1 is hit
+Ref 100: 8 3 1 4 
+Page 1 is hit
+Page hit ratio: 0.47
+
+Run 2 
+Ref 1: 
+Page 8 needs to be paged in
+Ref 2: 8 
+Page 8 is hit
+Ref 3: 8 
+Page 8 is hit
+Ref 4: 8 
+Page 1 needs to be paged in
+Ref 5: 8 1 
+Page 6 needs to be paged in
+Ref 6: 8 1 6 
+Page 7 needs to be paged in
+Ref 7: 8 1 6 7 
+Page 7 is hit
+Ref 8: 8 1 6 7 
+Page 7 is hit
+Ref 9: 8 1 6 7 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 10: 1 6 7 5 
+Page 4 needs to be paged in
+Page 7 was evicted
+Ref 11: 1 6 5 4 
+Page 4 is hit
+Ref 12: 1 6 5 4 
+Page 4 is hit
+Ref 13: 1 6 5 4 
+Page 4 is hit
+Ref 14: 1 6 5 4 
+Page 4 is hit
+Ref 15: 1 6 5 4 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 16: 1 6 5 3 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 17: 6 5 3 4 
+Page 5 is hit
+Ref 18: 6 5 3 4 
+Page 4 is hit
+Ref 19: 6 5 3 4 
+Page 4 is hit
+Ref 20: 6 5 3 4 
+Page 5 is hit
+Ref 21: 6 5 3 4 
+Page 6 is hit
+Ref 22: 6 5 3 4 
+Page 5 is hit
+Ref 23: 6 5 3 4 
+Page 4 is hit
+Ref 24: 6 5 3 4 
+Page 4 is hit
+Ref 25: 6 5 3 4 
+Page 3 is hit
+Ref 26: 6 5 3 4 
+Page 3 is hit
+Ref 27: 6 5 3 4 
+Page 6 is hit
+Ref 28: 6 5 3 4 
+Page 5 is hit
+Ref 29: 6 5 3 4 
+Page 3 is hit
+Ref 30: 6 5 3 4 
+Page 2 needs to be paged in
+Page 5 was evicted
+Ref 31: 6 3 4 2 
+Page 4 is hit
+Ref 32: 6 3 4 2 
+Page 2 is hit
+Ref 33: 6 3 4 2 
+Page 3 is hit
+Ref 34: 6 3 4 2 
+Page 4 is hit
+Ref 35: 6 3 4 2 
+Page 4 is hit
+Ref 36: 6 3 4 2 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 37: 6 3 2 0 
+Page 0 is hit
+Ref 38: 6 3 2 0 
+Page 9 needs to be paged in
+Page 3 was evicted
+Ref 39: 6 2 0 9 
+Page 9 is hit
+Ref 40: 6 2 0 9 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 41: 2 0 9 8 
+Page 7 needs to be paged in
+Page 2 was evicted
+Ref 42: 0 9 8 7 
+Page 8 is hit
+Ref 43: 0 9 8 7 
+Page 8 is hit
+Ref 44: 0 9 8 7 
+Page 3 needs to be paged in
+Page 8 was evicted
+Ref 45: 0 9 7 3 
+Page 2 needs to be paged in
+Page 0 was evicted
+Ref 46: 9 7 3 2 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 47: 7 3 2 1 
+Page 7 is hit
+Ref 48: 7 3 2 1 
+Page 6 needs to be paged in
+Page 7 was evicted
+Ref 49: 3 2 1 6 
+Page 6 is hit
+Ref 50: 3 2 1 6 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 51: 3 2 1 5 
+Page 9 needs to be paged in
+Page 3 was evicted
+Ref 52: 2 1 5 9 
+Page 5 is hit
+Ref 53: 2 1 5 9 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 54: 2 1 9 4 
+Page 4 is hit
+Ref 55: 2 1 9 4 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 56: 2 1 9 3 
+Page 4 needs to be paged in
+Page 2 was evicted
+Ref 57: 1 9 3 4 
+Page 4 is hit
+Ref 58: 1 9 3 4 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 59: 1 9 3 5 
+Page 5 is hit
+Ref 60: 1 9 3 5 
+Page 2 needs to be paged in
+Page 5 was evicted
+Ref 61: 1 9 3 2 
+Page 3 is hit
+Ref 62: 1 9 3 2 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 63: 1 9 2 4 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 64: 9 2 4 3 
+Page 4 is hit
+Ref 65: 9 2 4 3 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 66: 9 2 3 5 
+Page 6 needs to be paged in
+Page 9 was evicted
+Ref 67: 2 3 5 6 
+Page 5 is hit
+Ref 68: 2 3 5 6 
+Page 6 is hit
+Ref 69: 2 3 5 6 
+Page 2 is hit
+Ref 70: 2 3 5 6 
+Page 1 needs to be paged in
+Page 2 was evicted
+Ref 71: 3 5 6 1 
+Page 2 needs to be paged in
+Page 5 was evicted
+Ref 72: 3 6 1 2 
+Page 2 is hit
+Ref 73: 3 6 1 2 
+Page 3 is hit
+Ref 74: 3 6 1 2 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 75: 3 1 2 0 
+Page 0 is hit
+Ref 76: 3 1 2 0 
+Page 0 is hit
+Ref 77: 3 1 2 0 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 78: 3 1 2 7 
+Page 6 needs to be paged in
+Page 3 was evicted
+Ref 79: 1 2 7 6 
+Page 7 is hit
+Ref 80: 1 2 7 6 
+Page 7 is hit
+Ref 81: 1 2 7 6 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 82: 1 2 6 5 
+Page 1 is hit
+Ref 83: 1 2 6 5 
+Page 0 needs to be paged in
+Page 2 was evicted
+Ref 84: 1 6 5 0 
+Page 0 is hit
+Ref 85: 1 6 5 0 
+Page 0 is hit
+Ref 86: 1 6 5 0 
+Page 8 needs to be paged in
+Page 0 was evicted
+Ref 87: 1 6 5 8 
+Page 8 is hit
+Ref 88: 1 6 5 8 
+Page 5 is hit
+Ref 89: 1 6 5 8 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 90: 6 5 8 9 
+Page 8 is hit
+Ref 91: 6 5 8 9 
+Page 8 is hit
+Ref 92: 6 5 8 9 
+Page 1 needs to be paged in
+Page 8 was evicted
+Ref 93: 6 5 9 1 
+Page 1 is hit
+Ref 94: 6 5 9 1 
+Page 1 is hit
+Ref 95: 6 5 9 1 
+Page 0 needs to be paged in
+Page 1 was evicted
+Ref 96: 6 5 9 0 
+Page 3 needs to be paged in
+Page 5 was evicted
+Ref 97: 6 9 0 3 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 98: 9 0 3 5 
+Page 5 is hit
+Ref 99: 9 0 3 5 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 100: 9 0 3 4 
+Page 2 needs to be paged in
+Page 9 was evicted
+Page hit ratio: 0.57
+
+Run 3 
+Ref 1: 
+Page 0 needs to be paged in
+Ref 2: 0 
+Page 0 is hit
+Ref 3: 0 
+Page 0 is hit
+Ref 4: 0 
+Page 1 needs to be paged in
+Ref 5: 0 1 
+Page 0 is hit
+Ref 6: 0 1 
+Page 6 needs to be paged in
+Ref 7: 0 1 6 
+Page 4 needs to be paged in
+Ref 8: 0 1 6 4 
+Page 6 is hit
+Ref 9: 0 1 6 4 
+Page 5 needs to be paged in
+Page 0 was evicted
+Ref 10: 1 6 4 5 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 11: 1 4 5 8 
+Page 1 is hit
+Ref 12: 1 4 5 8 
+Page 1 is hit
+Ref 13: 1 4 5 8 
+Page 6 needs to be paged in
+Page 1 was evicted
+Ref 14: 4 5 8 6 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 15: 5 8 6 7 
+Page 8 is hit
+Ref 16: 5 8 6 7 
+Page 7 is hit
+Ref 17: 5 8 6 7 
+Page 7 is hit
+Ref 18: 5 8 6 7 
+Page 0 needs to be paged in
+Page 7 was evicted
+Ref 19: 5 8 6 0 
+Page 6 is hit
+Ref 20: 5 8 6 0 
+Page 6 is hit
+Ref 21: 5 8 6 0 
+Page 6 is hit
+Ref 22: 5 8 6 0 
+Page 7 needs to be paged in
+Page 6 was evicted
+Ref 23: 5 8 0 7 
+Page 4 needs to be paged in
+Page 8 was evicted
+Ref 24: 5 0 7 4 
+Page 3 needs to be paged in
+Page 5 was evicted
+Ref 25: 0 7 4 3 
+Page 4 is hit
+Ref 26: 0 7 4 3 
+Page 3 is hit
+Ref 27: 0 7 4 3 
+Page 3 is hit
+Ref 28: 0 7 4 3 
+Page 4 is hit
+Ref 29: 0 7 4 3 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 30: 0 7 3 1 
+Page 2 needs to be paged in
+Page 3 was evicted
+Ref 31: 0 7 1 2 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 32: 7 1 2 3 
+Page 3 is hit
+Ref 33: 7 1 2 3 
+Page 1 is hit
+Ref 34: 7 1 2 3 
+Page 7 is hit
+Ref 35: 7 1 2 3 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 36: 1 2 3 8 
+Page 8 is hit
+Ref 37: 1 2 3 8 
+Page 7 needs to be paged in
+Page 1 was evicted
+Ref 38: 2 3 8 7 
+Page 7 is hit
+Ref 39: 2 3 8 7 
+Page 6 needs to be paged in
+Page 3 was evicted
+Ref 40: 2 8 7 6 
+Page 6 is hit
+Ref 41: 2 8 7 6 
+Page 7 is hit
+Ref 42: 2 8 7 6 
+Page 0 needs to be paged in
+Page 7 was evicted
+Ref 43: 2 8 6 0 
+Page 0 is hit
+Ref 44: 2 8 6 0 
+Page 6 is hit
+Ref 45: 2 8 6 0 
+Page 7 needs to be paged in
+Page 6 was evicted
+Ref 46: 2 8 0 7 
+Page 6 needs to be paged in
+Page 8 was evicted
+Ref 47: 2 0 7 6 
+Page 0 is hit
+Ref 48: 2 0 7 6 
+Page 0 is hit
+Ref 49: 2 0 7 6 
+Page 0 is hit
+Ref 50: 2 0 7 6 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 51: 2 7 6 3 
+Page 4 needs to be paged in
+Page 2 was evicted
+Ref 52: 7 6 3 4 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 53: 6 3 4 5 
+Page 1 needs to be paged in
+Page 6 was evicted
+Ref 54: 3 4 5 1 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 55: 4 5 1 8 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 56: 5 1 8 7 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 57: 1 8 7 6 
+Page 6 is hit
+Ref 58: 1 8 7 6 
+Page 9 needs to be paged in
+Page 6 was evicted
+Ref 59: 1 8 7 9 
+Page 0 needs to be paged in
+Page 1 was evicted
+Ref 60: 8 7 9 0 
+Page 6 needs to be paged in
+Page 8 was evicted
+Ref 61: 7 9 0 6 
+Page 7 is hit
+Ref 62: 7 9 0 6 
+Page 6 is hit
+Ref 63: 7 9 0 6 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 64: 9 0 6 1 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 65: 9 0 1 8 
+Page 9 is hit
+Ref 66: 9 0 1 8 
+Page 0 is hit
+Ref 67: 9 0 1 8 
+Page 0 is hit
+Ref 68: 9 0 1 8 
+Page 0 is hit
+Ref 69: 9 0 1 8 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 70: 9 1 8 3 
+Page 8 is hit
+Ref 71: 9 1 8 3 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 72: 1 8 3 0 
+Page 0 is hit
+Ref 73: 1 8 3 0 
+Page 0 is hit
+Ref 74: 1 8 3 0 
+Page 0 is hit
+Ref 75: 1 8 3 0 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 76: 1 8 3 4 
+Page 4 is hit
+Ref 77: 1 8 3 4 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 78: 1 3 4 5 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 79: 1 3 5 6 
+Page 5 is hit
+Ref 80: 1 3 5 6 
+Page 5 is hit
+Ref 81: 1 3 5 6 
+Page 7 needs to be paged in
+Page 5 was evicted
+Ref 82: 1 3 6 7 
+Page 6 is hit
+Ref 83: 1 3 6 7 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 84: 1 3 7 0 
+Page 0 is hit
+Ref 85: 1 3 7 0 
+Page 7 is hit
+Ref 86: 1 3 7 0 
+Page 6 needs to be paged in
+Page 7 was evicted
+Ref 87: 1 3 0 6 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 88: 1 3 6 7 
+Page 7 is hit
+Ref 89: 1 3 6 7 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 90: 1 3 6 8 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 91: 3 6 8 4 
+Page 4 is hit
+Ref 92: 3 6 8 4 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 93: 3 6 8 5 
+Page 5 is hit
+Ref 94: 3 6 8 5 
+Page 1 needs to be paged in
+Page 5 was evicted
+Ref 95: 3 6 8 1 
+Page 8 is hit
+Ref 96: 3 6 8 1 
+Page 3 is hit
+Ref 97: 3 6 8 1 
+Page 3 is hit
+Ref 98: 3 6 8 1 
+Page 0 needs to be paged in
+Page 3 was evicted
+Ref 99: 6 8 1 0 
+Page 8 is hit
+Ref 100: 6 8 1 0 
+Page 9 needs to be paged in
+Page 8 was evicted
+Page hit ratio: 0.52
+
+Run 4 
+Ref 1: 
+Page 9 needs to be paged in
+Ref 2: 9 
+Page 0 needs to be paged in
+Ref 3: 9 0 
+Page 1 needs to be paged in
+Ref 4: 9 0 1 
+Page 1 is hit
+Ref 5: 9 0 1 
+Page 0 is hit
+Ref 6: 9 0 1 
+Page 1 is hit
+Ref 7: 9 0 1 
+Page 0 is hit
+Ref 8: 9 0 1 
+Page 1 is hit
+Ref 9: 9 0 1 
+Page 2 needs to be paged in
+Ref 10: 9 0 1 2 
+Page 7 needs to be paged in
+Page 1 was evicted
+Ref 11: 9 0 2 7 
+Page 7 is hit
+Ref 12: 9 0 2 7 
+Page 6 needs to be paged in
+Page 0 was evicted
+Ref 13: 9 2 7 6 
+Page 7 is hit
+Ref 14: 9 2 7 6 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 15: 9 2 6 1 
+Page 7 needs to be paged in
+Page 9 was evicted
+Ref 16: 2 6 1 7 
+Page 6 is hit
+Ref 17: 2 6 1 7 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 18: 2 1 7 5 
+Page 4 needs to be paged in
+Page 2 was evicted
+Ref 19: 1 7 5 4 
+Page 6 needs to be paged in
+Page 1 was evicted
+Ref 20: 7 5 4 6 
+Page 5 is hit
+Ref 21: 7 5 4 6 
+Page 5 is hit
+Ref 22: 7 5 4 6 
+Page 3 needs to be paged in
+Page 5 was evicted
+Ref 23: 7 4 6 3 
+Page 3 is hit
+Ref 24: 7 4 6 3 
+Page 4 is hit
+Ref 25: 7 4 6 3 
+Page 9 needs to be paged in
+Page 4 was evicted
+Ref 26: 7 6 3 9 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 27: 7 6 9 8 
+Page 8 is hit
+Ref 28: 7 6 9 8 
+Page 4 needs to be paged in
+Page 8 was evicted
+Ref 29: 7 6 9 4 
+Page 4 is hit
+Ref 30: 7 6 9 4 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 31: 7 6 9 0 
+Page 0 is hit
+Ref 32: 7 6 9 0 
+Page 5 needs to be paged in
+Page 0 was evicted
+Ref 33: 7 6 9 5 
+Page 5 is hit
+Ref 34: 7 6 9 5 
+Page 2 needs to be paged in
+Page 5 was evicted
+Ref 35: 7 6 9 2 
+Page 3 needs to be paged in
+Page 7 was evicted
+Ref 36: 6 9 2 3 
+Page 9 is hit
+Ref 37: 6 9 2 3 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 38: 6 2 3 0 
+Page 0 is hit
+Ref 39: 6 2 3 0 
+Page 2 is hit
+Ref 40: 6 2 3 0 
+Page 3 is hit
+Ref 41: 6 2 3 0 
+Page 2 is hit
+Ref 42: 6 2 3 0 
+Page 3 is hit
+Ref 43: 6 2 3 0 
+Page 2 is hit
+Ref 44: 6 2 3 0 
+Page 8 needs to be paged in
+Page 2 was evicted
+Ref 45: 6 3 0 8 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 46: 6 0 8 7 
+Page 8 is hit
+Ref 47: 6 0 8 7 
+Page 9 needs to be paged in
+Page 0 was evicted
+Ref 48: 6 8 7 9 
+Page 0 needs to be paged in
+Page 8 was evicted
+Ref 49: 6 7 9 0 
+Page 1 needs to be paged in
+Page 6 was evicted
+Ref 50: 7 9 0 1 
+Page 9 is hit
+Ref 51: 7 9 0 1 
+Page 9 is hit
+Ref 52: 7 9 0 1 
+Page 6 needs to be paged in
+Page 9 was evicted
+Ref 53: 7 0 1 6 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 54: 0 1 6 5 
+Page 6 is hit
+Ref 55: 0 1 6 5 
+Page 5 is hit
+Ref 56: 0 1 6 5 
+Page 2 needs to be paged in
+Page 6 was evicted
+Ref 57: 0 1 5 2 
+Page 1 is hit
+Ref 58: 0 1 5 2 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 59: 0 1 2 6 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 60: 0 2 6 9 
+Page 8 needs to be paged in
+Page 0 was evicted
+Ref 61: 2 6 9 8 
+Page 9 is hit
+Ref 62: 2 6 9 8 
+Page 8 is hit
+Ref 63: 2 6 9 8 
+Page 3 needs to be paged in
+Page 9 was evicted
+Ref 64: 2 6 8 3 
+Page 2 is hit
+Ref 65: 2 6 8 3 
+Page 2 is hit
+Ref 66: 2 6 8 3 
+Page 1 needs to be paged in
+Page 2 was evicted
+Ref 67: 6 8 3 1 
+Page 2 needs to be paged in
+Page 8 was evicted
+Ref 68: 6 3 1 2 
+Page 2 is hit
+Ref 69: 6 3 1 2 
+Page 6 is hit
+Ref 70: 6 3 1 2 
+Page 4 needs to be paged in
+Page 6 was evicted
+Ref 71: 3 1 2 4 
+Page 4 is hit
+Ref 72: 3 1 2 4 
+Page 3 is hit
+Ref 73: 3 1 2 4 
+Page 8 needs to be paged in
+Page 2 was evicted
+Ref 74: 3 1 4 8 
+Page 8 is hit
+Ref 75: 3 1 4 8 
+Page 9 needs to be paged in
+Page 3 was evicted
+Ref 76: 1 4 8 9 
+Page 9 is hit
+Ref 77: 1 4 8 9 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 78: 1 8 9 0 
+Page 6 needs to be paged in
+Page 8 was evicted
+Ref 79: 1 9 0 6 
+Page 5 needs to be paged in
+Page 9 was evicted
+Ref 80: 1 0 6 5 
+Page 5 is hit
+Ref 81: 1 0 6 5 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 82: 1 0 6 4 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 83: 0 6 4 3 
+Page 4 is hit
+Ref 84: 0 6 4 3 
+Page 5 needs to be paged in
+Page 4 was evicted
+Ref 85: 0 6 3 5 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 86: 6 3 5 7 
+Page 6 is hit
+Ref 87: 6 3 5 7 
+Page 6 is hit
+Ref 88: 6 3 5 7 
+Page 7 is hit
+Ref 89: 6 3 5 7 
+Page 7 is hit
+Ref 90: 6 3 5 7 
+Page 6 is hit
+Ref 91: 6 3 5 7 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 92: 3 5 7 0 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 93: 3 5 0 1 
+Page 1 is hit
+Ref 94: 3 5 0 1 
+Page 2 needs to be paged in
+Page 1 was evicted
+Ref 95: 3 5 0 2 
+Page 2 is hit
+Ref 96: 3 5 0 2 
+Page 2 is hit
+Ref 97: 3 5 0 2 
+Page 3 is hit
+Ref 98: 3 5 0 2 
+Page 3 is hit
+Ref 99: 3 5 0 2 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 100: 5 0 2 4 
+Page 7 needs to be paged in
+Page 2 was evicted
+Page hit ratio: 0.51
+
+Run 5 
+Ref 1: 
+Page 9 needs to be paged in
+Ref 2: 9 
+Page 4 needs to be paged in
+Ref 3: 9 4 
+Page 0 needs to be paged in
+Ref 4: 9 4 0 
+Page 3 needs to be paged in
+Ref 5: 9 4 0 3 
+Page 2 needs to be paged in
+Page 9 was evicted
+Ref 6: 4 0 3 2 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 7: 0 3 2 1 
+Page 0 is hit
+Ref 8: 0 3 2 1 
+Page 1 is hit
+Ref 9: 0 3 2 1 
+Page 0 is hit
+Ref 10: 0 3 2 1 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 11: 3 2 1 7 
+Page 8 needs to be paged in
+Page 1 was evicted
+Ref 12: 3 2 7 8 
+Page 9 needs to be paged in
+Page 3 was evicted
+Ref 13: 2 7 8 9 
+Page 9 is hit
+Ref 14: 2 7 8 9 
+Page 8 is hit
+Ref 15: 2 7 8 9 
+Page 8 is hit
+Ref 16: 2 7 8 9 
+Page 7 is hit
+Ref 17: 2 7 8 9 
+Page 7 is hit
+Ref 18: 2 7 8 9 
+Page 8 is hit
+Ref 19: 2 7 8 9 
+Page 9 is hit
+Ref 20: 2 7 8 9 
+Page 9 is hit
+Ref 21: 2 7 8 9 
+Page 9 is hit
+Ref 22: 2 7 8 9 
+Page 2 is hit
+Ref 23: 2 7 8 9 
+Page 3 needs to be paged in
+Page 9 was evicted
+Ref 24: 2 7 8 3 
+Page 3 is hit
+Ref 25: 2 7 8 3 
+Page 1 needs to be paged in
+Page 8 was evicted
+Ref 26: 2 7 3 1 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 27: 2 3 1 8 
+Page 8 is hit
+Ref 28: 2 3 1 8 
+Page 3 is hit
+Ref 29: 2 3 1 8 
+Page 3 is hit
+Ref 30: 2 3 1 8 
+Page 3 is hit
+Ref 31: 2 3 1 8 
+Page 1 is hit
+Ref 32: 2 3 1 8 
+Page 5 needs to be paged in
+Page 3 was evicted
+Ref 33: 2 1 8 5 
+Page 4 needs to be paged in
+Page 2 was evicted
+Ref 34: 1 8 5 4 
+Page 4 is hit
+Ref 35: 1 8 5 4 
+Page 4 is hit
+Ref 36: 1 8 5 4 
+Page 4 is hit
+Ref 37: 1 8 5 4 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 38: 1 8 5 3 
+Page 3 is hit
+Ref 39: 1 8 5 3 
+Page 7 needs to be paged in
+Page 1 was evicted
+Ref 40: 8 5 3 7 
+Page 1 needs to be paged in
+Page 8 was evicted
+Ref 41: 5 3 7 1 
+Page 2 needs to be paged in
+Page 3 was evicted
+Ref 42: 5 7 1 2 
+Page 2 is hit
+Ref 43: 5 7 1 2 
+Page 0 needs to be paged in
+Page 2 was evicted
+Ref 44: 5 7 1 0 
+Page 0 is hit
+Ref 45: 5 7 1 0 
+Page 0 is hit
+Ref 46: 5 7 1 0 
+Page 5 is hit
+Ref 47: 5 7 1 0 
+Page 1 is hit
+Ref 48: 5 7 1 0 
+Page 2 needs to be paged in
+Page 0 was evicted
+Ref 49: 5 7 1 2 
+Page 2 is hit
+Ref 50: 5 7 1 2 
+Page 3 needs to be paged in
+Page 5 was evicted
+Ref 51: 7 1 2 3 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 52: 7 2 3 9 
+Page 8 needs to be paged in
+Page 2 was evicted
+Ref 53: 7 3 9 8 
+Page 9 is hit
+Ref 54: 7 3 9 8 
+Page 9 is hit
+Ref 55: 7 3 9 8 
+Page 8 is hit
+Ref 56: 7 3 9 8 
+Page 7 is hit
+Ref 57: 7 3 9 8 
+Page 2 needs to be paged in
+Page 9 was evicted
+Ref 58: 7 3 8 2 
+Page 2 is hit
+Ref 59: 7 3 8 2 
+Page 4 needs to be paged in
+Page 7 was evicted
+Ref 60: 3 8 2 4 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 61: 3 2 4 5 
+Page 5 is hit
+Ref 62: 3 2 4 5 
+Page 0 needs to be paged in
+Page 2 was evicted
+Ref 63: 3 4 5 0 
+Page 8 needs to be paged in
+Page 5 was evicted
+Ref 64: 3 4 0 8 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 65: 4 0 8 7 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 66: 0 8 7 1 
+Page 1 is hit
+Ref 67: 0 8 7 1 
+Page 1 is hit
+Ref 68: 0 8 7 1 
+Page 0 is hit
+Ref 69: 0 8 7 1 
+Page 0 is hit
+Ref 70: 0 8 7 1 
+Page 8 is hit
+Ref 71: 0 8 7 1 
+Page 5 needs to be paged in
+Page 0 was evicted
+Ref 72: 8 7 1 5 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 73: 8 7 5 4 
+Page 4 is hit
+Ref 74: 8 7 5 4 
+Page 5 is hit
+Ref 75: 8 7 5 4 
+Page 0 needs to be paged in
+Page 8 was evicted
+Ref 76: 7 5 4 0 
+Page 1 needs to be paged in
+Page 5 was evicted
+Ref 77: 7 4 0 1 
+Page 2 needs to be paged in
+Page 4 was evicted
+Ref 78: 7 0 1 2 
+Page 2 is hit
+Ref 79: 7 0 1 2 
+Page 3 needs to be paged in
+Page 2 was evicted
+Ref 80: 7 0 1 3 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 81: 0 1 3 2 
+Page 2 is hit
+Ref 82: 0 1 3 2 
+Page 3 is hit
+Ref 83: 0 1 3 2 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 84: 0 1 2 4 
+Page 3 needs to be paged in
+Page 2 was evicted
+Ref 85: 0 1 4 3 
+Page 3 is hit
+Ref 86: 0 1 4 3 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 87: 0 1 4 7 
+Page 8 needs to be paged in
+Page 0 was evicted
+Ref 88: 1 4 7 8 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 89: 4 7 8 9 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 90: 7 8 9 1 
+Page 2 needs to be paged in
+Page 7 was evicted
+Ref 91: 8 9 1 2 
+Page 1 is hit
+Ref 92: 8 9 1 2 
+Page 2 is hit
+Ref 93: 8 9 1 2 
+Page 1 is hit
+Ref 94: 8 9 1 2 
+Page 1 is hit
+Ref 95: 8 9 1 2 
+Page 2 is hit
+Ref 96: 8 9 1 2 
+Page 6 needs to be paged in
+Page 1 was evicted
+Ref 97: 8 9 2 6 
+Page 0 needs to be paged in
+Page 2 was evicted
+Ref 98: 8 9 6 0 
+Page 0 is hit
+Ref 99: 8 9 6 0 
+Page 1 needs to be paged in
+Page 0 was evicted
+Ref 100: 8 9 6 1 
+Page 2 needs to be paged in
+Page 8 was evicted
+Page hit ratio: 0.52
+Average hit ratio: 0.518
+
+
+Random Paging
+
+Run 1 
+Ref 1: 
+Page 6 needs to be paged in
+Ref 2: 6 
+Page 5 needs to be paged in
+Ref 3: 6 5 
+Page 6 is hit
+Ref 4: 6 5 
+Page 8 needs to be paged in
+Ref 5: 6 5 8 
+Page 9 needs to be paged in
+Ref 6: 6 5 8 9 
+Page 8 is hit
+Ref 7: 6 5 8 9 
+Page 7 needs to be paged in
+Page 5 was evicted
+Ref 8: 6 8 9 7 
+Page 6 is hit
+Ref 9: 6 8 9 7 
+Page 5 needs to be paged in
+Page 8 was evicted
+Ref 10: 6 9 7 5 
+Page 9 is hit
+Ref 11: 6 9 7 5 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 12: 6 9 5 8 
+Page 0 needs to be paged in
+Page 5 was evicted
+Ref 13: 6 9 8 0 
+Page 1 needs to be paged in
+Page 8 was evicted
+Ref 14: 6 9 0 1 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 15: 6 9 1 4 
+Page 5 needs to be paged in
+Page 9 was evicted
+Ref 16: 6 1 4 5 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 17: 6 4 5 3 
+Page 3 is hit
+Ref 18: 6 4 5 3 
+Page 4 is hit
+Ref 19: 6 4 5 3 
+Page 3 is hit
+Ref 20: 6 4 5 3 
+Page 1 needs to be paged in
+Page 6 was evicted
+Ref 21: 4 5 3 1 
+Page 1 is hit
+Ref 22: 4 5 3 1 
+Page 2 needs to be paged in
+Page 4 was evicted
+Ref 23: 5 3 1 2 
+Page 8 needs to be paged in
+Page 1 was evicted
+Ref 24: 5 3 2 8 
+Page 7 needs to be paged in
+Page 2 was evicted
+Ref 25: 5 3 8 7 
+Page 3 is hit
+Ref 26: 5 3 8 7 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 27: 3 8 7 6 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 28: 3 8 6 1 
+Page 0 needs to be paged in
+Page 8 was evicted
+Ref 29: 3 6 1 0 
+Page 1 is hit
+Ref 30: 3 6 1 0 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 31: 3 6 0 4 
+Page 5 needs to be paged in
+Page 3 was evicted
+Ref 32: 6 0 4 5 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 33: 6 0 5 3 
+Page 4 needs to be paged in
+Page 6 was evicted
+Ref 34: 0 5 3 4 
+Page 8 needs to be paged in
+Page 0 was evicted
+Ref 35: 5 3 4 8 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 36: 5 4 8 7 
+Page 3 needs to be paged in
+Page 8 was evicted
+Ref 37: 5 4 7 3 
+Page 4 is hit
+Ref 38: 5 4 7 3 
+Page 4 is hit
+Ref 39: 5 4 7 3 
+Page 5 is hit
+Ref 40: 5 4 7 3 
+Page 6 needs to be paged in
+Page 7 was evicted
+Ref 41: 5 4 3 6 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 42: 5 3 6 0 
+Page 0 is hit
+Ref 43: 5 3 6 0 
+Page 0 is hit
+Ref 44: 5 3 6 0 
+Page 0 is hit
+Ref 45: 5 3 6 0 
+Page 6 is hit
+Ref 46: 5 3 6 0 
+Page 5 is hit
+Ref 47: 5 3 6 0 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 48: 3 6 0 4 
+Page 3 is hit
+Ref 49: 3 6 0 4 
+Page 3 is hit
+Ref 50: 3 6 0 4 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 51: 6 0 4 1 
+Page 1 is hit
+Ref 52: 6 0 4 1 
+Page 1 is hit
+Ref 53: 6 0 4 1 
+Page 4 is hit
+Ref 54: 6 0 4 1 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 55: 0 4 1 5 
+Page 5 is hit
+Ref 56: 0 4 1 5 
+Page 1 is hit
+Ref 57: 0 4 1 5 
+Page 6 needs to be paged in
+Page 0 was evicted
+Ref 58: 4 1 5 6 
+Page 7 needs to be paged in
+Page 5 was evicted
+Ref 59: 4 1 6 7 
+Page 6 is hit
+Ref 60: 4 1 6 7 
+Page 6 is hit
+Ref 61: 4 1 6 7 
+Page 6 is hit
+Ref 62: 4 1 6 7 
+Page 4 is hit
+Ref 63: 4 1 6 7 
+Page 5 needs to be paged in
+Page 1 was evicted
+Ref 64: 4 6 7 5 
+Page 6 is hit
+Ref 65: 4 6 7 5 
+Page 5 is hit
+Ref 66: 4 6 7 5 
+Page 0 needs to be paged in
+Page 7 was evicted
+Ref 67: 4 6 5 0 
+Page 0 is hit
+Ref 68: 4 6 5 0 
+Page 1 needs to be paged in
+Page 5 was evicted
+Ref 69: 4 6 0 1 
+Page 6 is hit
+Ref 70: 4 6 0 1 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 71: 4 6 1 7 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 72: 6 1 7 3 
+Page 5 needs to be paged in
+Page 1 was evicted
+Ref 73: 6 7 3 5 
+Page 7 is hit
+Ref 74: 6 7 3 5 
+Page 6 is hit
+Ref 75: 6 7 3 5 
+Page 7 is hit
+Ref 76: 6 7 3 5 
+Page 6 is hit
+Ref 77: 6 7 3 5 
+Page 7 is hit
+Ref 78: 6 7 3 5 
+Page 3 is hit
+Ref 79: 6 7 3 5 
+Page 3 is hit
+Ref 80: 6 7 3 5 
+Page 3 is hit
+Ref 81: 6 7 3 5 
+Page 2 needs to be paged in
+Page 6 was evicted
+Ref 82: 7 3 5 2 
+Page 3 is hit
+Ref 83: 7 3 5 2 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 84: 7 3 2 4 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 85: 3 2 4 5 
+Page 4 is hit
+Ref 86: 3 2 4 5 
+Page 5 is hit
+Ref 87: 3 2 4 5 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 88: 2 4 5 7 
+Page 1 needs to be paged in
+Page 5 was evicted
+Ref 89: 2 4 7 1 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 90: 2 7 1 6 
+Page 2 is hit
+Ref 91: 2 7 1 6 
+Page 2 is hit
+Ref 92: 2 7 1 6 
+Page 3 needs to be paged in
+Page 2 was evicted
+Ref 93: 7 1 6 3 
+Page 9 needs to be paged in
+Page 6 was evicted
+Ref 94: 7 1 3 9 
+Page 8 needs to be paged in
+Page 7 was evicted
+Ref 95: 1 3 9 8 
+Page 1 is hit
+Ref 96: 1 3 9 8 
+Page 8 is hit
+Ref 97: 1 3 9 8 
+Page 9 is hit
+Ref 98: 1 3 9 8 
+Page 9 is hit
+Ref 99: 1 3 9 8 
+Page 8 is hit
+Ref 100: 1 3 9 8 
+Page 8 is hit
+Page hit ratio: 0.52
+
+Run 2 
+Ref 1: 
+Page 1 needs to be paged in
+Ref 2: 1 
+Page 2 needs to be paged in
+Ref 3: 1 2 
+Page 1 is hit
+Ref 4: 1 2 
+Page 0 needs to be paged in
+Ref 5: 1 2 0 
+Page 1 is hit
+Ref 6: 1 2 0 
+Page 9 needs to be paged in
+Ref 7: 1 2 0 9 
+Page 8 needs to be paged in
+Page 2 was evicted
+Ref 8: 1 0 9 8 
+Page 8 is hit
+Ref 9: 1 0 9 8 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 10: 1 9 8 7 
+Page 0 needs to be paged in
+Page 1 was evicted
+Ref 11: 9 8 7 0 
+Page 0 is hit
+Ref 12: 9 8 7 0 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 13: 9 8 0 1 
+Page 6 needs to be paged in
+Page 9 was evicted
+Ref 14: 8 0 1 6 
+Page 8 is hit
+Ref 15: 8 0 1 6 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 16: 8 0 6 9 
+Page 9 is hit
+Ref 17: 8 0 6 9 
+Page 9 is hit
+Ref 18: 8 0 6 9 
+Page 8 is hit
+Ref 19: 8 0 6 9 
+Page 9 is hit
+Ref 20: 8 0 6 9 
+Page 9 is hit
+Ref 21: 8 0 6 9 
+Page 0 is hit
+Ref 22: 8 0 6 9 
+Page 0 is hit
+Ref 23: 8 0 6 9 
+Page 0 is hit
+Ref 24: 8 0 6 9 
+Page 0 is hit
+Ref 25: 8 0 6 9 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 26: 8 0 9 5 
+Page 4 needs to be paged in
+Page 8 was evicted
+Ref 27: 0 9 5 4 
+Page 4 is hit
+Ref 28: 0 9 5 4 
+Page 4 is hit
+Ref 29: 0 9 5 4 
+Page 5 is hit
+Ref 30: 0 9 5 4 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 31: 9 5 4 3 
+Page 5 is hit
+Ref 32: 9 5 4 3 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 33: 9 5 3 7 
+Page 8 needs to be paged in
+Page 3 was evicted
+Ref 34: 9 5 7 8 
+Page 9 is hit
+Ref 35: 9 5 7 8 
+Page 9 is hit
+Ref 36: 9 5 7 8 
+Page 8 is hit
+Ref 37: 9 5 7 8 
+Page 9 is hit
+Ref 38: 9 5 7 8 
+Page 9 is hit
+Ref 39: 9 5 7 8 
+Page 8 is hit
+Ref 40: 9 5 7 8 
+Page 9 is hit
+Ref 41: 9 5 7 8 
+Page 4 needs to be paged in
+Page 7 was evicted
+Ref 42: 9 5 8 4 
+Page 8 is hit
+Ref 43: 9 5 8 4 
+Page 2 needs to be paged in
+Page 9 was evicted
+Ref 44: 5 8 4 2 
+Page 1 needs to be paged in
+Page 8 was evicted
+Ref 45: 5 4 2 1 
+Page 0 needs to be paged in
+Page 2 was evicted
+Ref 46: 5 4 1 0 
+Page 0 is hit
+Ref 47: 5 4 1 0 
+Page 4 is hit
+Ref 48: 5 4 1 0 
+Page 5 is hit
+Ref 49: 5 4 1 0 
+Page 4 is hit
+Ref 50: 5 4 1 0 
+Page 5 is hit
+Ref 51: 5 4 1 0 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 52: 5 1 0 6 
+Page 5 is hit
+Ref 53: 5 1 0 6 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 54: 5 0 6 4 
+Page 2 needs to be paged in
+Page 0 was evicted
+Ref 55: 5 6 4 2 
+Page 4 is hit
+Ref 56: 5 6 4 2 
+Page 8 needs to be paged in
+Page 5 was evicted
+Ref 57: 6 4 2 8 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 58: 6 2 8 7 
+Page 7 is hit
+Ref 59: 6 2 8 7 
+Page 2 is hit
+Ref 60: 6 2 8 7 
+Page 1 needs to be paged in
+Page 6 was evicted
+Ref 61: 2 8 7 1 
+Page 9 needs to be paged in
+Page 7 was evicted
+Ref 62: 2 8 1 9 
+Page 2 is hit
+Ref 63: 2 8 1 9 
+Page 2 is hit
+Ref 64: 2 8 1 9 
+Page 8 is hit
+Ref 65: 2 8 1 9 
+Page 9 is hit
+Ref 66: 2 8 1 9 
+Page 0 needs to be paged in
+Page 2 was evicted
+Ref 67: 8 1 9 0 
+Page 1 is hit
+Ref 68: 8 1 9 0 
+Page 1 is hit
+Ref 69: 8 1 9 0 
+Page 5 needs to be paged in
+Page 9 was evicted
+Ref 70: 8 1 0 5 
+Page 6 needs to be paged in
+Page 0 was evicted
+Ref 71: 8 1 5 6 
+Page 0 needs to be paged in
+Page 5 was evicted
+Ref 72: 8 1 6 0 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 73: 8 1 0 5 
+Page 6 needs to be paged in
+Page 0 was evicted
+Ref 74: 8 1 5 6 
+Page 6 is hit
+Ref 75: 8 1 5 6 
+Page 6 is hit
+Ref 76: 8 1 5 6 
+Page 7 needs to be paged in
+Page 5 was evicted
+Ref 77: 8 1 6 7 
+Page 8 is hit
+Ref 78: 8 1 6 7 
+Page 7 is hit
+Ref 79: 8 1 6 7 
+Page 3 needs to be paged in
+Page 6 was evicted
+Ref 80: 8 1 7 3 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 81: 8 7 3 9 
+Page 0 needs to be paged in
+Page 7 was evicted
+Ref 82: 8 3 9 0 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 83: 8 9 0 1 
+Page 1 is hit
+Ref 84: 8 9 0 1 
+Page 2 needs to be paged in
+Page 0 was evicted
+Ref 85: 8 9 1 2 
+Page 3 needs to be paged in
+Page 9 was evicted
+Ref 86: 8 1 2 3 
+Page 3 is hit
+Ref 87: 8 1 2 3 
+Page 3 is hit
+Ref 88: 8 1 2 3 
+Page 3 is hit
+Ref 89: 8 1 2 3 
+Page 6 needs to be paged in
+Page 8 was evicted
+Ref 90: 1 2 3 6 
+Page 7 needs to be paged in
+Page 1 was evicted
+Ref 91: 2 3 6 7 
+Page 8 needs to be paged in
+Page 6 was evicted
+Ref 92: 2 3 7 8 
+Page 9 needs to be paged in
+Page 3 was evicted
+Ref 93: 2 7 8 9 
+Page 0 needs to be paged in
+Page 2 was evicted
+Ref 94: 7 8 9 0 
+Page 0 is hit
+Ref 95: 7 8 9 0 
+Page 1 needs to be paged in
+Page 9 was evicted
+Ref 96: 7 8 0 1 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 97: 8 0 1 5 
+Page 6 needs to be paged in
+Page 0 was evicted
+Ref 98: 8 1 5 6 
+Page 7 needs to be paged in
+Page 1 was evicted
+Ref 99: 8 5 6 7 
+Page 6 is hit
+Ref 100: 8 5 6 7 
+Page 2 needs to be paged in
+Page 6 was evicted
+Page hit ratio: 0.51
+
+Run 3 
+Ref 1: 
+Page 5 needs to be paged in
+Ref 2: 5 
+Page 6 needs to be paged in
+Ref 3: 5 6 
+Page 6 is hit
+Ref 4: 5 6 
+Page 7 needs to be paged in
+Ref 5: 5 6 7 
+Page 4 needs to be paged in
+Ref 6: 5 6 7 4 
+Page 6 is hit
+Ref 7: 5 6 7 4 
+Page 7 is hit
+Ref 8: 5 6 7 4 
+Page 8 needs to be paged in
+Page 5 was evicted
+Ref 9: 6 7 4 8 
+Page 3 needs to be paged in
+Page 6 was evicted
+Ref 10: 7 4 8 3 
+Page 2 needs to be paged in
+Page 8 was evicted
+Ref 11: 7 4 3 2 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 12: 7 3 2 1 
+Page 6 needs to be paged in
+Page 7 was evicted
+Ref 13: 3 2 1 6 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 14: 3 2 6 9 
+Page 6 is hit
+Ref 15: 3 2 6 9 
+Page 2 is hit
+Ref 16: 3 2 6 9 
+Page 3 is hit
+Ref 17: 3 2 6 9 
+Page 3 is hit
+Ref 18: 3 2 6 9 
+Page 2 is hit
+Ref 19: 3 2 6 9 
+Page 1 needs to be paged in
+Page 2 was evicted
+Ref 20: 3 6 9 1 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 21: 3 6 1 0 
+Page 3 is hit
+Ref 22: 3 6 1 0 
+Page 3 is hit
+Ref 23: 3 6 1 0 
+Page 2 needs to be paged in
+Page 1 was evicted
+Ref 24: 3 6 0 2 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 25: 6 0 2 1 
+Page 1 is hit
+Ref 26: 6 0 2 1 
+Page 0 is hit
+Ref 27: 6 0 2 1 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 28: 0 2 1 5 
+Page 0 is hit
+Ref 29: 0 2 1 5 
+Page 0 is hit
+Ref 30: 0 2 1 5 
+Page 0 is hit
+Ref 31: 0 2 1 5 
+Page 1 is hit
+Ref 32: 0 2 1 5 
+Page 7 needs to be paged in
+Page 2 was evicted
+Ref 33: 0 1 5 7 
+Page 1 is hit
+Ref 34: 0 1 5 7 
+Page 0 is hit
+Ref 35: 0 1 5 7 
+Page 0 is hit
+Ref 36: 0 1 5 7 
+Page 7 is hit
+Ref 37: 0 1 5 7 
+Page 6 needs to be paged in
+Page 5 was evicted
+Ref 38: 0 1 7 6 
+Page 4 needs to be paged in
+Page 7 was evicted
+Ref 39: 0 1 6 4 
+Page 2 needs to be paged in
+Page 0 was evicted
+Ref 40: 1 6 4 2 
+Page 1 is hit
+Ref 41: 1 6 4 2 
+Page 1 is hit
+Ref 42: 1 6 4 2 
+Page 1 is hit
+Ref 43: 1 6 4 2 
+Page 1 is hit
+Ref 44: 1 6 4 2 
+Page 1 is hit
+Ref 45: 1 6 4 2 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 46: 1 6 2 0 
+Page 4 needs to be paged in
+Page 2 was evicted
+Ref 47: 1 6 0 4 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 48: 1 0 4 5 
+Page 5 is hit
+Ref 49: 1 0 4 5 
+Page 6 needs to be paged in
+Page 0 was evicted
+Ref 50: 1 4 5 6 
+Page 5 is hit
+Ref 51: 1 4 5 6 
+Page 5 is hit
+Ref 52: 1 4 5 6 
+Page 6 is hit
+Ref 53: 1 4 5 6 
+Page 7 needs to be paged in
+Page 1 was evicted
+Ref 54: 4 5 6 7 
+Page 6 is hit
+Ref 55: 4 5 6 7 
+Page 7 is hit
+Ref 56: 4 5 6 7 
+Page 6 is hit
+Ref 57: 4 5 6 7 
+Page 7 is hit
+Ref 58: 4 5 6 7 
+Page 7 is hit
+Ref 59: 4 5 6 7 
+Page 7 is hit
+Ref 60: 4 5 6 7 
+Page 8 needs to be paged in
+Page 4 was evicted
+Ref 61: 5 6 7 8 
+Page 7 is hit
+Ref 62: 5 6 7 8 
+Page 8 is hit
+Ref 63: 5 6 7 8 
+Page 7 is hit
+Ref 64: 5 6 7 8 
+Page 6 is hit
+Ref 65: 5 6 7 8 
+Page 5 is hit
+Ref 66: 5 6 7 8 
+Page 4 needs to be paged in
+Page 6 was evicted
+Ref 67: 5 7 8 4 
+Page 3 needs to be paged in
+Page 8 was evicted
+Ref 68: 5 7 4 3 
+Page 4 is hit
+Ref 69: 5 7 4 3 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 70: 5 4 3 1 
+Page 4 is hit
+Ref 71: 5 4 3 1 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 72: 5 3 1 0 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 73: 5 1 0 7 
+Page 7 is hit
+Ref 74: 5 1 0 7 
+Page 6 needs to be paged in
+Page 0 was evicted
+Ref 75: 5 1 7 6 
+Page 6 is hit
+Ref 76: 5 1 7 6 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 77: 1 7 6 4 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 78: 1 6 4 5 
+Page 4 is hit
+Ref 79: 1 6 4 5 
+Page 4 is hit
+Ref 80: 1 6 4 5 
+Page 5 is hit
+Ref 81: 1 6 4 5 
+Page 4 is hit
+Ref 82: 1 6 4 5 
+Page 9 needs to be paged in
+Page 4 was evicted
+Ref 83: 1 6 5 9 
+Page 0 needs to be paged in
+Page 5 was evicted
+Ref 84: 1 6 9 0 
+Page 6 is hit
+Ref 85: 1 6 9 0 
+Page 5 needs to be paged in
+Page 1 was evicted
+Ref 86: 6 9 0 5 
+Page 5 is hit
+Ref 87: 6 9 0 5 
+Page 5 is hit
+Ref 88: 6 9 0 5 
+Page 5 is hit
+Ref 89: 6 9 0 5 
+Page 4 needs to be paged in
+Page 9 was evicted
+Ref 90: 6 0 5 4 
+Page 5 is hit
+Ref 91: 6 0 5 4 
+Page 6 is hit
+Ref 92: 6 0 5 4 
+Page 6 is hit
+Ref 93: 6 0 5 4 
+Page 6 is hit
+Ref 94: 6 0 5 4 
+Page 4 is hit
+Ref 95: 6 0 5 4 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 96: 6 5 4 3 
+Page 3 is hit
+Ref 97: 6 5 4 3 
+Page 4 is hit
+Ref 98: 6 5 4 3 
+Page 3 is hit
+Ref 99: 6 5 4 3 
+Page 4 is hit
+Ref 100: 6 5 4 3 
+Page 3 is hit
+Page hit ratio: 0.62
+
+Run 4 
+Ref 1: 
+Page 7 needs to be paged in
+Ref 2: 7 
+Page 7 is hit
+Ref 3: 7 
+Page 1 needs to be paged in
+Ref 4: 7 1 
+Page 0 needs to be paged in
+Ref 5: 7 1 0 
+Page 0 is hit
+Ref 6: 7 1 0 
+Page 3 needs to be paged in
+Ref 7: 7 1 0 3 
+Page 3 is hit
+Ref 8: 7 1 0 3 
+Page 3 is hit
+Ref 9: 7 1 0 3 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 10: 7 0 3 4 
+Page 6 needs to be paged in
+Page 7 was evicted
+Ref 11: 0 3 4 6 
+Page 6 is hit
+Ref 12: 0 3 4 6 
+Page 6 is hit
+Ref 13: 0 3 4 6 
+Page 6 is hit
+Ref 14: 0 3 4 6 
+Page 6 is hit
+Ref 15: 0 3 4 6 
+Page 5 needs to be paged in
+Page 3 was evicted
+Ref 16: 0 4 6 5 
+Page 6 is hit
+Ref 17: 0 4 6 5 
+Page 6 is hit
+Ref 18: 0 4 6 5 
+Page 5 is hit
+Ref 19: 0 4 6 5 
+Page 4 is hit
+Ref 20: 0 4 6 5 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 21: 0 6 5 3 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 22: 0 6 3 4 
+Page 5 needs to be paged in
+Page 6 was evicted
+Ref 23: 0 3 4 5 
+Page 6 needs to be paged in
+Page 3 was evicted
+Ref 24: 0 4 5 6 
+Page 6 is hit
+Ref 25: 0 4 5 6 
+Page 6 is hit
+Ref 26: 0 4 5 6 
+Page 6 is hit
+Ref 27: 0 4 5 6 
+Page 6 is hit
+Ref 28: 0 4 5 6 
+Page 2 needs to be paged in
+Page 4 was evicted
+Ref 29: 0 5 6 2 
+Page 5 is hit
+Ref 30: 0 5 6 2 
+Page 4 needs to be paged in
+Page 6 was evicted
+Ref 31: 0 5 2 4 
+Page 9 needs to be paged in
+Page 2 was evicted
+Ref 32: 0 5 4 9 
+Page 8 needs to be paged in
+Page 4 was evicted
+Ref 33: 0 5 9 8 
+Page 7 needs to be paged in
+Page 9 was evicted
+Ref 34: 0 5 8 7 
+Page 5 is hit
+Ref 35: 0 5 8 7 
+Page 6 needs to be paged in
+Page 8 was evicted
+Ref 36: 0 5 7 6 
+Page 5 is hit
+Ref 37: 0 5 7 6 
+Page 5 is hit
+Ref 38: 0 5 7 6 
+Page 7 is hit
+Ref 39: 0 5 7 6 
+Page 1 needs to be paged in
+Page 5 was evicted
+Ref 40: 0 7 6 1 
+Page 1 is hit
+Ref 41: 0 7 6 1 
+Page 3 needs to be paged in
+Page 0 was evicted
+Ref 42: 7 6 1 3 
+Page 1 is hit
+Ref 43: 7 6 1 3 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 44: 7 1 3 0 
+Page 1 is hit
+Ref 45: 7 1 3 0 
+Page 5 needs to be paged in
+Page 7 was evicted
+Ref 46: 1 3 0 5 
+Page 3 is hit
+Ref 47: 1 3 0 5 
+Page 2 needs to be paged in
+Page 0 was evicted
+Ref 48: 1 3 5 2 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 49: 1 5 2 7 
+Page 7 is hit
+Ref 50: 1 5 2 7 
+Page 1 is hit
+Ref 51: 1 5 2 7 
+Page 1 is hit
+Ref 52: 1 5 2 7 
+Page 2 is hit
+Ref 53: 1 5 2 7 
+Page 1 is hit
+Ref 54: 1 5 2 7 
+Page 2 is hit
+Ref 55: 1 5 2 7 
+Page 5 is hit
+Ref 56: 1 5 2 7 
+Page 9 needs to be paged in
+Page 1 was evicted
+Ref 57: 5 2 7 9 
+Page 9 is hit
+Ref 58: 5 2 7 9 
+Page 9 is hit
+Ref 59: 5 2 7 9 
+Page 9 is hit
+Ref 60: 5 2 7 9 
+Page 7 is hit
+Ref 61: 5 2 7 9 
+Page 4 needs to be paged in
+Page 2 was evicted
+Ref 62: 5 7 9 4 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 63: 5 7 4 0 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 64: 5 7 0 1 
+Page 2 needs to be paged in
+Page 5 was evicted
+Ref 65: 7 0 1 2 
+Page 2 is hit
+Ref 66: 7 0 1 2 
+Page 2 is hit
+Ref 67: 7 0 1 2 
+Page 0 is hit
+Ref 68: 7 0 1 2 
+Page 0 is hit
+Ref 69: 7 0 1 2 
+Page 1 is hit
+Ref 70: 7 0 1 2 
+Page 0 is hit
+Ref 71: 7 0 1 2 
+Page 0 is hit
+Ref 72: 7 0 1 2 
+Page 0 is hit
+Ref 73: 7 0 1 2 
+Page 9 needs to be paged in
+Page 0 was evicted
+Ref 74: 7 1 2 9 
+Page 8 needs to be paged in
+Page 1 was evicted
+Ref 75: 7 2 9 8 
+Page 3 needs to be paged in
+Page 9 was evicted
+Ref 76: 7 2 8 3 
+Page 2 is hit
+Ref 77: 7 2 8 3 
+Page 3 is hit
+Ref 78: 7 2 8 3 
+Page 2 is hit
+Ref 79: 7 2 8 3 
+Page 1 needs to be paged in
+Page 7 was evicted
+Ref 80: 2 8 3 1 
+Page 4 needs to be paged in
+Page 8 was evicted
+Ref 81: 2 3 1 4 
+Page 1 is hit
+Ref 82: 2 3 1 4 
+Page 5 needs to be paged in
+Page 2 was evicted
+Ref 83: 3 1 4 5 
+Page 3 is hit
+Ref 84: 3 1 4 5 
+Page 1 is hit
+Ref 85: 3 1 4 5 
+Page 2 needs to be paged in
+Page 3 was evicted
+Ref 86: 1 4 5 2 
+Page 1 is hit
+Ref 87: 1 4 5 2 
+Page 0 needs to be paged in
+Page 4 was evicted
+Ref 88: 1 5 2 0 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 89: 5 2 0 3 
+Page 4 needs to be paged in
+Page 5 was evicted
+Ref 90: 2 0 3 4 
+Page 4 is hit
+Ref 91: 2 0 3 4 
+Page 5 needs to be paged in
+Page 2 was evicted
+Ref 92: 0 3 4 5 
+Page 4 is hit
+Ref 93: 0 3 4 5 
+Page 5 is hit
+Ref 94: 0 3 4 5 
+Page 5 is hit
+Ref 95: 0 3 4 5 
+Page 4 is hit
+Ref 96: 0 3 4 5 
+Page 5 is hit
+Ref 97: 0 3 4 5 
+Page 0 is hit
+Ref 98: 0 3 4 5 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 99: 0 3 5 6 
+Page 7 needs to be paged in
+Page 0 was evicted
+Ref 100: 3 5 6 7 
+Page 3 is hit
+Page hit ratio: 0.59
+
+Run 5 
+Ref 1: 
+Page 8 needs to be paged in
+Ref 2: 8 
+Page 8 is hit
+Ref 3: 8 
+Page 6 needs to be paged in
+Ref 4: 8 6 
+Page 0 needs to be paged in
+Ref 5: 8 6 0 
+Page 0 is hit
+Ref 6: 8 6 0 
+Page 0 is hit
+Ref 7: 8 6 0 
+Page 2 needs to be paged in
+Ref 8: 8 6 0 2 
+Page 9 needs to be paged in
+Page 6 was evicted
+Ref 9: 8 0 2 9 
+Page 8 is hit
+Ref 10: 8 0 2 9 
+Page 8 is hit
+Ref 11: 8 0 2 9 
+Page 8 is hit
+Ref 12: 8 0 2 9 
+Page 9 is hit
+Ref 13: 8 0 2 9 
+Page 8 is hit
+Ref 14: 8 0 2 9 
+Page 9 is hit
+Ref 15: 8 0 2 9 
+Page 6 needs to be paged in
+Page 8 was evicted
+Ref 16: 0 2 9 6 
+Page 6 is hit
+Ref 17: 0 2 9 6 
+Page 6 is hit
+Ref 18: 0 2 9 6 
+Page 6 is hit
+Ref 19: 0 2 9 6 
+Page 4 needs to be paged in
+Page 0 was evicted
+Ref 20: 2 9 6 4 
+Page 4 is hit
+Ref 21: 2 9 6 4 
+Page 4 is hit
+Ref 22: 2 9 6 4 
+Page 3 needs to be paged in
+Page 2 was evicted
+Ref 23: 9 6 4 3 
+Page 3 is hit
+Ref 24: 9 6 4 3 
+Page 4 is hit
+Ref 25: 9 6 4 3 
+Page 3 is hit
+Ref 26: 9 6 4 3 
+Page 1 needs to be paged in
+Page 4 was evicted
+Ref 27: 9 6 3 1 
+Page 1 is hit
+Ref 28: 9 6 3 1 
+Page 1 is hit
+Ref 29: 9 6 3 1 
+Page 9 is hit
+Ref 30: 9 6 3 1 
+Page 4 needs to be paged in
+Page 9 was evicted
+Ref 31: 6 3 1 4 
+Page 3 is hit
+Ref 32: 6 3 1 4 
+Page 6 is hit
+Ref 33: 6 3 1 4 
+Page 6 is hit
+Ref 34: 6 3 1 4 
+Page 6 is hit
+Ref 35: 6 3 1 4 
+Page 6 is hit
+Ref 36: 6 3 1 4 
+Page 6 is hit
+Ref 37: 6 3 1 4 
+Page 6 is hit
+Ref 38: 6 3 1 4 
+Page 1 is hit
+Ref 39: 6 3 1 4 
+Page 7 needs to be paged in
+Page 3 was evicted
+Ref 40: 6 1 4 7 
+Page 8 needs to be paged in
+Page 1 was evicted
+Ref 41: 6 4 7 8 
+Page 8 is hit
+Ref 42: 6 4 7 8 
+Page 9 needs to be paged in
+Page 6 was evicted
+Ref 43: 4 7 8 9 
+Page 9 is hit
+Ref 44: 4 7 8 9 
+Page 9 is hit
+Ref 45: 4 7 8 9 
+Page 6 needs to be paged in
+Page 4 was evicted
+Ref 46: 7 8 9 6 
+Page 8 is hit
+Ref 47: 7 8 9 6 
+Page 0 needs to be paged in
+Page 9 was evicted
+Ref 48: 7 8 6 0 
+Page 4 needs to be paged in
+Page 6 was evicted
+Ref 49: 7 8 0 4 
+Page 8 is hit
+Ref 50: 7 8 0 4 
+Page 8 is hit
+Ref 51: 7 8 0 4 
+Page 8 is hit
+Ref 52: 7 8 0 4 
+Page 8 is hit
+Ref 53: 7 8 0 4 
+Page 9 needs to be paged in
+Page 8 was evicted
+Ref 54: 7 0 4 9 
+Page 8 needs to be paged in
+Page 4 was evicted
+Ref 55: 7 0 9 8 
+Page 9 is hit
+Ref 56: 7 0 9 8 
+Page 9 is hit
+Ref 57: 7 0 9 8 
+Page 9 is hit
+Ref 58: 7 0 9 8 
+Page 5 needs to be paged in
+Page 9 was evicted
+Ref 59: 7 0 8 5 
+Page 9 needs to be paged in
+Page 0 was evicted
+Ref 60: 7 8 5 9 
+Page 0 needs to be paged in
+Page 7 was evicted
+Ref 61: 8 5 9 0 
+Page 1 needs to be paged in
+Page 5 was evicted
+Ref 62: 8 9 0 1 
+Page 8 is hit
+Ref 63: 8 9 0 1 
+Page 2 needs to be paged in
+Page 0 was evicted
+Ref 64: 8 9 1 2 
+Page 2 is hit
+Ref 65: 8 9 1 2 
+Page 3 needs to be paged in
+Page 1 was evicted
+Ref 66: 8 9 2 3 
+Page 2 is hit
+Ref 67: 8 9 2 3 
+Page 2 is hit
+Ref 68: 8 9 2 3 
+Page 4 needs to be paged in
+Page 9 was evicted
+Ref 69: 8 2 3 4 
+Page 6 needs to be paged in
+Page 8 was evicted
+Ref 70: 2 3 4 6 
+Page 6 is hit
+Ref 71: 2 3 4 6 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 72: 2 3 6 7 
+Page 7 is hit
+Ref 73: 2 3 6 7 
+Page 5 needs to be paged in
+Page 3 was evicted
+Ref 74: 2 6 7 5 
+Page 4 needs to be paged in
+Page 2 was evicted
+Ref 75: 6 7 5 4 
+Page 3 needs to be paged in
+Page 7 was evicted
+Ref 76: 6 5 4 3 
+Page 3 is hit
+Ref 77: 6 5 4 3 
+Page 2 needs to be paged in
+Page 5 was evicted
+Ref 78: 6 4 3 2 
+Page 0 needs to be paged in
+Page 6 was evicted
+Ref 79: 4 3 2 0 
+Page 1 needs to be paged in
+Page 3 was evicted
+Ref 80: 4 2 0 1 
+Page 2 is hit
+Ref 81: 4 2 0 1 
+Page 1 is hit
+Ref 82: 4 2 0 1 
+Page 2 is hit
+Ref 83: 4 2 0 1 
+Page 1 is hit
+Ref 84: 4 2 0 1 
+Page 0 is hit
+Ref 85: 4 2 0 1 
+Page 0 is hit
+Ref 86: 4 2 0 1 
+Page 3 needs to be paged in
+Page 4 was evicted
+Ref 87: 2 0 1 3 
+Page 4 needs to be paged in
+Page 1 was evicted
+Ref 88: 2 0 3 4 
+Page 3 is hit
+Ref 89: 2 0 3 4 
+Page 4 is hit
+Ref 90: 2 0 3 4 
+Page 4 is hit
+Ref 91: 2 0 3 4 
+Page 3 is hit
+Ref 92: 2 0 3 4 
+Page 3 is hit
+Ref 93: 2 0 3 4 
+Page 8 needs to be paged in
+Page 2 was evicted
+Ref 94: 0 3 4 8 
+Page 7 needs to be paged in
+Page 4 was evicted
+Ref 95: 0 3 8 7 
+Page 8 is hit
+Ref 96: 0 3 8 7 
+Page 8 is hit
+Ref 97: 0 3 8 7 
+Page 4 needs to be paged in
+Page 3 was evicted
+Ref 98: 0 8 7 4 
+Page 4 is hit
+Ref 99: 0 8 7 4 
+Page 5 needs to be paged in
+Page 0 was evicted
+Ref 100: 8 7 4 5 
+Page 6 needs to be paged in
+Page 7 was evicted
+Page hit ratio: 0.6
+Average hit ratio: 0.568

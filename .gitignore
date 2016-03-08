@@ -3,3 +3,5 @@
 /nbproject/
 *.mf
 /bin/
+.classpath
+.project
