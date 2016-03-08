@@ -45,7 +45,6 @@ public abstract class Memory {
         if (opPage.isPresent()) {
             System.out.println("Page " + page + " is hit");
             pageHits++;
-            opPage.get().resetLastUsed();
             return opPage.get();
         }
         System.out.println("Page " + page + " needs to be paged in");
@@ -56,10 +55,6 @@ public abstract class Memory {
         }
         Page p = disk.getPage(page);
         pageFrames.add(p);
-        // increment the counter of all pages in pageFrames
-        for (Page pages : pageFrames) {
-            pages.incrementLastUsed();
-        }
         return p;
     }
 

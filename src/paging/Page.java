@@ -12,7 +12,6 @@ package paging;
 public class Page {
 
     private final int page;
-    private int lastUsedCounter; //counter to check when the page was last used
     private int reference;
 
     /**
@@ -54,17 +53,5 @@ public class Page {
     @Override
     public String toString() {
         return page + " ";
-    }
-
-    public int getLastUsed() {
-        return lastUsedCounter;
-    }
-
-    public void resetLastUsed() {
-        lastUsedCounter = 0;
-    }
-
-    public void incrementLastUsed() {
-        lastUsedCounter++;
     }
 }
