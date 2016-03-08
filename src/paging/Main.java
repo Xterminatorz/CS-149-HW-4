@@ -14,7 +14,6 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    	
         Disk disk = new Disk();
         Memory[] algs = {new RandomPaging(disk), new FIFOPaging(disk), new LRU(disk)};
         String[] algNames = {"Random Paging", "FIFO Paging", "LRU Paging"};
@@ -29,6 +28,5 @@ public class Main {
             p.printAverageHitRatio();
             System.out.println();
         }
-        
     } 
 }

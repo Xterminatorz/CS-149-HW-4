@@ -13,6 +13,8 @@ import java.util.Random;
  */
 public class RandomPaging extends Memory {
 
+    private final Random r = new Random(0);
+
     /**
      * Assigns disk access to memory
      *
@@ -29,7 +31,7 @@ public class RandomPaging extends Memory {
      */
     @Override
     public int getPageIndexToRemove() {
-        return new Random().nextInt(super.getPageFrames().size() - 1);
+        return r.nextInt(getPageFrames().size() - 1);
     }
 
 }

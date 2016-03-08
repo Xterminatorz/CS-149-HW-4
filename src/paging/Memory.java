@@ -4,7 +4,7 @@ package paging;
  * CS 149 Group 2
  * Homework 4
  */
-import java.util.ArrayList; 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -30,49 +30,49 @@ public abstract class Memory {
     }
 
     /**
-     * Retrieves a page from memory. If not in memory, retrieves from disk.
-     * If memory is full, removes a page based on algorithm used
+     * Retrieves a page from memory. If not in memory, retrieves from disk. If
+     * memory is full, removes a page based on algorithm used
+     *
      * @param page index of page to retrieve
      * @param refsMade current amount of references made
+     * @return the page being requested
      */
-    public void requestPage(int page, int refsMade) {
-        Optional opPage = pageFrames.stream().filter(p -> p.getPageNumber() == page).findFirst();
-        System.out.print("\nRef " + refsMade + ": ");
+    public Page requestPage(int page, int refsMade) {
+        Optional<Page> opPage = pageFrames.stream().filter(p -> p.getPageNumber() == page).findFirst();
+        System.out.print("Ref " + refsMade + ": ");
         pageFrames.stream().forEach(System.out::print);
         System.out.println();
         if (opPage.isPresent()) {
-        	 System.out.println("Page " + page + " is hit");
+            System.out.println("Page " + page + " is hit");
             pageHits++;
-            
-            // if there's a hit, reset the counter of the page that was hit
-            for(Page pages: pageFrames){
-            	if(pages.getPageNumber() == page)
-            		pages.resetLastUsed();
-            }
-        } else {
-            System.out.println("Page " + page + " needs to be paged in");
-            if (pageFrames.size() == maxPages) {
-                int evictedIndex = getPageIndexToRemove();
-                Page pageRemoved = pageFrames.remove(evictedIndex);
-                System.out.println("Page " + pageRemoved.getPageNumber() + " was evicted");
-            }
-            pageFrames.add(disk.getPage(page));
+            opPage.get().resetLastUsed();
+            return opPage.get();
         }
-        
+        System.out.println("Page " + page + " needs to be paged in");
+        if (pageFrames.size() == maxPages) {
+            int evictedIndex = getPageIndexToRemove();
+            Page pageRemoved = pageFrames.remove(evictedIndex);
+            System.out.println("Page " + pageRemoved.getPageNumber() + " was evicted");
+        }
+        Page p = disk.getPage(page);
+        pageFrames.add(p);
         // increment the counter of all pages in pageFrames
-        for(Page pages: pageFrames){
-        	pages.incrementLastUsed();
+        for (Page pages : pageFrames) {
+            pages.incrementLastUsed();
         }
+        return p;
     }
 
     /**
      * Gets the index of the page to remove
+     *
      * @return index of page to remove
      */
     public abstract int getPageIndexToRemove();
 
     /**
      * Allow subclasses to access memory page frames
+     *
      * @return List of pages in memory
      */
     protected List<Page> getPageFrames() {
@@ -81,6 +81,7 @@ public abstract class Memory {
 
     /**
      * Retrieves the number of pages on disk
+     *
      * @return number of pages on disk
      */
     public int getPagesOnDisk() {
@@ -89,6 +90,7 @@ public abstract class Memory {
 
     /**
      * Gets the number of page hits during the current run
+     *
      * @return number of page hits
      */
     public int getPageHits() {
