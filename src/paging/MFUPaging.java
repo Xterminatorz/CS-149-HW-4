@@ -40,8 +40,8 @@ public class MFUPaging extends Memory {
     }
 
     /**
-     * Override default requestPage function by keeping track of what pages were
-     * referenced before calling the requestPage method in its super class.
+     * Override default requestPage function by incrementing the reference
+     * counter on the requested page
      *
      * @param page index of page to retrieve
      * @param refsMade current amount of references made

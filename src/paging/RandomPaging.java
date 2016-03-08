@@ -13,7 +13,7 @@ import java.util.Random;
  */
 public class RandomPaging extends Memory {
 
-    private final Random r = new Random(0);
+    private final Random r = new Random();
 
     /**
      * Assigns disk access to memory
