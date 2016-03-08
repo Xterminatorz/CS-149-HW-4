@@ -107,10 +107,11 @@ public class CPUSystem {
 
     /**
      * Print average amount of processes swapped
+     * @return string of averag processes swapped in
      */
-    public void printStats() {
+    public String printStats() {
         OptionalDouble avgSwap = stats.stream().mapToDouble(a -> a).average();
-        System.out.println("Average processes swapped in: " + (avgSwap.isPresent() ? avgSwap.getAsDouble() : 0));
+        return "Average processes swapped in: " + (avgSwap.isPresent() ? avgSwap.getAsDouble() : 0);
     }
 
 }

@@ -67,10 +67,11 @@ public class Process {
     }
 
     /**
-     * Prints average hit ratio from all runs
+     * Returns average hit ratio
+     * @return average hit ratio string
      */
-    public void printAverageHitRatio() {
+    public String printAverageHitRatio() {
         OptionalDouble avgSwap = stats.stream().mapToDouble(a -> a).average();
-        System.out.println("Average hit ratio: " + (avgSwap.isPresent() ? avgSwap.getAsDouble() / 100.0 : 0) + "\r\n");
+        return "Average hit ratio: " + (avgSwap.isPresent() ? avgSwap.getAsDouble() / 100.0 : 0) + "\r\n";
     }
 }

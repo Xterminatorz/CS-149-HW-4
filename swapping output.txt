@@ -876,7 +876,6 @@ Deallocated 4: .....5555555555555555555555555555555.............................
 Allocated 6: .....555555555555555555555555555555566666666666666666...............................................
 Process added: Name=6/Size=17/Duration=3
 
-Average processes swapped in: 59.0
 
 Next Fit
 Allocated A: AAAAAAAAAAAAAAAAA...................................................................................
@@ -1772,7 +1771,6 @@ Process added: Name=7/Size=11/Duration=5
 Allocated 8: .5555555555555555555555555555555666666666666666667777777777788888888888.............................
 Process added: Name=8/Size=11/Duration=5
 
-Average processes swapped in: 60.2
 
 Best Fit
 Allocated A: AAAAAAAAAAAAAAAAA...................................................................................
@@ -2655,4 +2653,7 @@ Deallocated 4: .....5555555555555555555555555555555.............................
 Allocated 6: .....555555555555555555555555555555566666666666666666...............................................
 Process added: Name=6/Size=17/Duration=3
 
-Average processes swapped in: 59.2
+
+First Fit Average processes swapped in: 59.0
+Next Fit Average processes swapped in: 60.2
+Best Fit Average processes swapped in: 59.2

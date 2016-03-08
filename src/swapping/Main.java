@@ -14,6 +14,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        StringBuilder averageSwapStr = new StringBuilder();
         Memory[] algs = {new FirstFitMemory(), new NextFitMemory(), new BestFitMemory()};
         String[] algNames = {"First Fit", "Next Fit", "Best Fit"};
         for (int algIndex = 0; algIndex < algs.length; algIndex++) {
@@ -25,9 +26,10 @@ public class Main {
                 s.reset();
                 System.out.println();
             }
-            s.printStats();
+            averageSwapStr.append(algNames[algIndex]).append(" ").append(s.printStats()).append("\r\n");
             System.out.println();
         }
+        System.out.println(averageSwapStr.toString());
     }
 
 }

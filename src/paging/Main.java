@@ -14,6 +14,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        StringBuilder averageHRStr = new StringBuilder();
         Disk disk = new Disk();
         Memory[] algs = {new FIFOPaging(disk), new LRUPaging(disk), new LFUPaging(disk), new MFUPaging(disk), new RandomPaging(disk)};
         String[] algNames = {"FIFO Paging", "LRU Paging", "LFU Paging", "MFU Paging", "Random Paging"};
@@ -25,8 +26,9 @@ public class Main {
                 p.run();
                 p.reset();
             }
-            p.printAverageHitRatio();
+            averageHRStr.append(algNames[i]).append(" ").append(p.printAverageHitRatio());
             System.out.println();
         }
+        System.out.println(averageHRStr.toString());
     }
 }
